@@ -12,8 +12,8 @@ Route::get('/dashboard', function () {
 
     return view('dashboard', ['datas' => $data]);
 });
-Route::get('/Kanban', function () {
-    return view('kanban');
+Route::get('/Entry-Data', function () {
+    return view('EntryData');
 });
 Route::post('/kanban/store', [SaranaAirMinumController::class, 'store'])->name('saranaAirMinum.store');
 
