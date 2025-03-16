@@ -17,4 +17,6 @@ Route::get('/Entry-Data', function () {
 });
 Route::post('/kanban/store', [SaranaAirMinumController::class, 'store'])->name('saranaAirMinum.store');
 
-
+Route::get('/data-pjb', function () {
+    return view('dataPjb');
+});

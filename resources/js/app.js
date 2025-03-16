@@ -1,5 +1,10 @@
 import './bootstrap';
 
+import 'flowbite';
+import { Datepicker } from 'flowbite-datepicker';
+
+
+
 function sideBar () {
     const aside = document.getElementById('logo-sidebar');
     const btnShow = document.querySelector('[data-drawer-target="logo-sidebar"]');
@@ -36,6 +41,42 @@ function dropDownButton2 () {
     })
 }
 
+
+function screeningDropDown() {
+    const button = document.getElementById('screening-button');
+    const showMenu = button.nextElementSibling;
+
+    button.addEventListener('click', () =>{
+        showMenu.classList.toggle('hidden');
+    })
+}
+
+function datePickerCustome() {
+    const datepickerEl = document.getElementById('datepicker-year');
+    const datepickerMonth = document.getElementById('datepicker-month');
+
+   if (datepickerEl) {
+       new Datepicker(datepickerEl, {
+           autohide: true,  
+           format: 'yyyy',   
+           pickLevel: 2,     
+           startView: 2,    
+       });
+   } 
+   
+   if (datepickerMonth) {
+        new Datepicker(datepickerMonth, {
+            autohide: true,  
+            format: 'MM',   
+            pickLevel: 1,     
+            startView: 1,
+        });
+   } 
+
+}
+
+datePickerCustome();
+screeningDropDown();
 dropDownButton2();
 dropDownButton();
 closeButton();
