@@ -20,4 +20,10 @@ Route::get('/Data-Kematian', function () {
 });
 Route::post('/kanban/store', [SaranaAirMinumController::class, 'store'])->name('saranaAirMinum.store');
 
+Route::get('/data-pjb', function () {
+    return view('dataPjb');
+});
 
+Route::get('/data-program', function () {
+    return view('data-program');
+});

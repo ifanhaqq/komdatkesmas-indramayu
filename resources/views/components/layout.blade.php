@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     @vite('resources/css/app.css')
+    @vite(['resources/js/app.js'])
 </head>
+
 <body>
     <x-header></x-header>
     <x-sidebar></x-sidebar>
@@ -15,6 +17,6 @@
         {{ $slot }}
     </main>
     
-    @vite(['resources/js/app.js'])
+    @vite('node_modules/flowbite/dist/flowbite.min.js')
 </body>
 </html>
