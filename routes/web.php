@@ -15,13 +15,13 @@ Route::get('/dashboard', function () {
 Route::get('/Entry-Data', function () {
     return view('EntryData');
 });
-<<<<<<< HEAD
+
 Route::get('/Data-Kematian', function () {
     return view('DataKematian');
-=======
+});
+
 Route::get('/Data-Jampersal', function () {
     return view('DataJampersal');
->>>>>>> 4f0ca4d (Entry Data - Data Jampersal)
 });
 Route::post('/kanban/store', [SaranaAirMinumController::class, 'store'])->name('saranaAirMinum.store');
 

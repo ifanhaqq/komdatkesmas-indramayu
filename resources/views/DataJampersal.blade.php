@@ -1,7 +1,7 @@
 <x-layout>
     <div class="p-4 sm:ml-64">
-        {{-- <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14"> --}}
-            <div class="mt-14 mx-auto bg-white shadow-md rounded-lg p-6 border border-gray-100">
+        <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14">
+            {{-- <div class="mt-14 mx-auto bg-white shadow-md rounded-lg p-6 border border-gray-100"> --}}
                 <h2 class="text-xl font-semibold mb-4">Entry Data - Data Jamperal</h2>
 
                 <div class="flex justify-between items-center mb-4">
@@ -43,8 +43,8 @@
                 <div class="mt-4 text-right">
                     <button class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Save</button>
                 </div>
-            </div>
-        {{-- </div> --}}
+            {{-- </div> --}}
+        </div>
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
