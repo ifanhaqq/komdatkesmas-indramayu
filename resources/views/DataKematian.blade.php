@@ -31,36 +31,37 @@
                 @csrf
                 <div class="p-4">
                     <h2 class="text-lg font-semibold mb-2">Data Kematian</h2>
-                    <div class="grid grid-cols-4 gap-4 items-center p-2">
-                        <!-- Tahun -->
-                        <label class="col-span-1 font-bold text-gray-700">Tahun</label>
-                        <div class="col-span-2">
+                    <div class="grid grid-cols-2 gap-4 items-center">
+                        <label class="font-bold text-gray-700">Tahun</label>
+                        <div class="relative w-full">
                             <input id="datepicker-year" type="text"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 
-                                focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 
+                                focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 
                                 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Pilih Tahun">
+                                placeholder="Pilih Tahun" readonly>
+                            <button type="button" class="absolute inset-y-0 left-3 flex items-center">
+                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                                </svg>
+                            </button>
                         </div>
                 
-                        <div class="col-span-1"></div> <!-- Spacer -->
-                
-                        <!-- Bulan -->
-                        <label class="col-span-1 font-bold text-gray-700">Bulan</label>
-                        <div class="col-span-2">
-                            <select class="border border-gray-300 p-2 rounded w-full focus:outline-none focus:ring focus:border-blue-300">
-                                <option>Januari</option>
-                                <option>Februari</option>
-                                <option>Maret</option>
-                                <option>April</option>
-                                <option>Mei</option>
-                                <option>Juni</option>
-                                <option>Juli</option>
-                                <option>Agustus</option>
-                                <option>September</option>
-                                <option>Oktober</option>
-                                <option>November</option>
-                                <option>Desember</option>
-                            </select>
+                        <label class="font-bold text-gray-700">Bulan</label>
+                        <div class="relative w-full">
+                            <input id="datepicker-month" type="text"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 
+                                focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 
+                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Pilih Bulan" readonly>
+                            <button type="button" class="absolute inset-y-0 left-3 flex items-center">
+                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -185,8 +186,7 @@
                         <tr>
                             <td class="border border-gray-300 p-2 w-48">0-6 Hari</td>
                             <td class="border border-gray-300 p-2 w-60">
-                                <input type="number"
-                                    class="w-full p-1 border border-gray-400 text-center" required>
+                                <input type="number" class="w-full p-1 border border-gray-400 text-center" required>
                             </td>
                             <td colspan="5" class="border border-gray-300 p-2">Update per 27 March 2023 (Desember
                                 2022)</td>
@@ -194,8 +194,7 @@
                         <tr>
                             <td class="border border-gray-300 p-2 w-48">7-28 Hari</td>
                             <td class="border border-gray-300 p-2 w-60">
-                                <input type="number"
-                                    class="w-full p-1 border border-gray-400 text-center" required>
+                                <input type="number" class="w-full p-1 border border-gray-400 text-center" required>
                             </td>
                             <td colspan="5" class="border border-gray-300 p-2">Update per 27 March 2023 (Desember
                                 2022)</td>
@@ -203,8 +202,7 @@
                         <tr>
                             <td class="border border-gray-300 p-2 w-48">0-28 Hari</td>
                             <td class="border border-gray-300 p-2 w-60">
-                                <input type="number"
-                                    class="w-full p-1 border border-gray-400 text-center" required>
+                                <input type="number" class="w-full p-1 border border-gray-400 text-center" required>
                             </td>
                             <td colspan="5" class="border border-gray-300 p-2">Update per 27 March 2023 (Desember
                                 2022)</td>
@@ -658,7 +656,7 @@
                                dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
                         Save
                     </button>
-                </div>                
+                </div>
             </form>
         </div>
     </div>
