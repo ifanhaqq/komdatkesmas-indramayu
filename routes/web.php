@@ -15,10 +15,22 @@ Route::get('/dashboard', function () {
 Route::get('/Entry-Data', function () {
     return view('EntryData');
 });
+
+Route::get('/Data-Kematian', function () {
+    return view('DataKematian');
+});
+
+Route::get('/Data-Jampersal', function () {
+    return view('DataJampersal');
+});
 Route::post('/kanban/store', [SaranaAirMinumController::class, 'store'])->name('saranaAirMinum.store');
 
 Route::get('/data-pjb', function () {
     return view('dataPjb');
+});
+
+Route::get('/data-program', function () {
+    return view('data-program');
 });
 Route::get("/data-usia-sekolah-dan-remaja", function () {
     return view('dataUsiaSekolahDanRemaja');

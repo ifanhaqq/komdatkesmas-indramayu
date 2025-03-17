@@ -44,478 +44,324 @@
             <div class="block gap-2 md:m-10 mt-10">
              
                 <section>
-                    <form action="">
+                    <form class="flex flex-col" action="">
                         <h1 class="text-md mb-5 font-bold">1. PUSKESMAS MELAKSANAKAN</h1>
                         <ol style="list-style: lower-alpha">
-                            <li class="ps-3 py-3 italic border flex justify-between items-center">Melaksanakan skrining kesehatan pada kelas 1-6 SD/MI/Pesantren sederajat
+                            <li class="ps-3 py-3 italic flex justify-between items-center">a. Melaksanakan skrining kesehatan pada kelas 1-6 SD/MI/Pesantren sederajat
                                 <div>
-                                    <input class="border w-40 py-1" type="text">
-                                    <input class="border w-40 py-1 ms-6" type="text">
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
                                 </div>
                             </li>
-                            <li class="ps-3 py-3 italic">Melaksanakan skrining kesehatan pada kelas 7-9 SMP/MTs/Pesantren sederajat</li>
-                            <li class="ps-3 py-3 italic">Melaksanakan skrining kesehatan pada kelas 10-12 SMA/SMK/MA/Pesantren sederajat</li>
-                            <li class="ps-3 py-3 italic">Melaksanakan Pelayanan Kesehatan Peduli Remaja</li>
-                            <li class="ps-3 py-3 italic">Membina bayi/anak/remaja terlantar di rumah singgah/panti/LKSA/LPKS</li>
-                            <li class="ps-3 py-3 italic">Membina Lapas/Rutan/Lembaga Anak/LPKA/LPAS</li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">b. Melaksanakan skrining kesehatan pada kelas 7-9 SMP/MTs/Pesantren sederajat
+                                <div>
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">c. Melaksanakan skrining kesehatan pada kelas 10-12 SMA/SMK/MA/Pesantren sederajat
+                                <div>
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">d. Melaksanakan Pelayanan Kesehatan Peduli Remaja
+                                <div>
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">e. Membina bayi/anak/remaja terlantar di rumah singgah/panti/LKSA/LPKS
+                                <div>
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">f. Membina Lapas/Rutan/Lembaga Anak/LPKA/LPAS
+                                
+                            </li>
                         </ol>
                         <h1 class="text-md mt-5 mb-5 font-bold">2. SCREENING KESEHATAN DI SEKOLAH</h1>
                         <ol style="list-style: lower-alpha">
-                            <li class="ps-3 py-3 italic">Jumlah sasaran anak usia sekolah kelas 1-6 SD/MI/Pesantren sederajat</li>
-                            <li class="ps-3 py-3 italic">Jumlah sasaran anak usia sekolah kelas 7-9 SMP/MTs/Pesantren sederajat</li>
-                            <li class="ps-3 py-3 italic">Jumlah sasaran anak usia sekolah kelas 10-12 SMA/SMK/MA/Pesantren sederajat</li>
-                            <li class="ps-3 py-3 italic">Anak usia sekolah tingkat SD/MI/Pesantren sederajat mendapatkan skrining kesehatan</li>
-                            <li class="ps-3 py-3 italic">Anak usia sekolah tingkat SMP/MTS/Pesantren sederajat mendapatkan skrining kesehatan</li>
-                            <li class="ps-3 py-3 italic">Anak usia sekolah tingkat SMA/MA/SMK/sederajat mendapatkan skrining kesehatan</li>
-                            <li class="ps-3 py-3 italic">
-                                <span>Hasil Penjaringan kelas 1-6 SD/MI/Pesantren</span>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">a. Jumlah sasaran anak usia sekolah kelas 1-6 SD/MI/Pesantren sederajat
+                                <div class="me-47">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">b. Jumlah sasaran anak usia sekolah kelas 7-9 SMP/MTs/Pesantren sederajat
+                                <div class="me-47">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">c. Jumlah sasaran anak usia sekolah kelas 10-12 SMA/SMK/MA/Pesantren sederajat
+                                <div class="me-47">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">d. Anak usia sekolah tingkat SD/MI/Pesantren sederajat mendapatkan skrining kesehatan
+                                <div>
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">e. Anak usia sekolah tingkat SMP/MTS/Pesantren sederajat mendapatkan skrining kesehatan
+                                <div>
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">f. Anak usia sekolah tingkat SMA/MA/SMK/sederajat mendapatkan skrining kesehatan
+                                <div>
+                                    <input class="border w-40 py-1" type="number">
+                                    <input class="border w-40 py-1 ms-6" type="number">
+                                </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-center items-between flex-col">
+                                <span>g. Hasil Penjaringan kelas 1-6 SD/MI/Pesantren</span>
                                 <ol class="ms-5 mt-4" style="list-style: lower-alpha">
-                                    <li class="ps-3 py-3 italic">Status gizi obesitas</li>
-                                    <li class="ps-3 py-3 italic">Status gizi kurang</li>
-                                    <li class="ps-3 py-3 italic">Pendek</li>
-                                    <li class="ps-3 py-3 italic">Risiko anemia</li>
-                                    <li class="ps-3 py-3 italic">Masalah hipertensi</li>
-                                    <li class="ps-3 py-3 italic">Masalah kelainan refraksi mata</li>
-                                    <li class="ps-3 py-3 italic">Karies gigi</li>
-                                    <li class="ps-3 py-3 italic">Masalah pendengaran</li>
-                                    <li class="ps-3 py-3 italic">Masalah mental emosional</li>
-                                    <li class="ps-3 py-3 italic">Masalah kebugaran</li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Status gizi obesitas
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Status gizi kurang
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Pendek
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Risiko anemia
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah hipertensi
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah kelainan refraksi mata
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Karies gigi
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah pendengaran
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah mental emosional
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah kebugaran
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
                                 </ol>
                             </li>
-                            <li class="ps-3 py-3 italic">
-                                <span>Hasil Penjaringan kelas 7-9 SMP/MTS/Pesantren</span>
+                            <li class="ps-3 py-3 italic flex flex-col justify-center items-between">
+                                <span>h. Hasil Penjaringan kelas 7-9 SMP/MTS/Pesantren</span>
                                 <ol class="ms-5 mt-4" style="list-style: lower-alpha">
-                                    <li class="ps-3 py-3 italic">Status gizi obesitas</li>
-                                    <li class="ps-3 py-3 italic">Status gizi kurang</li>
-                                    <li class="ps-3 py-3 italic">Pendek</li>
-                                    <li class="ps-3 py-3 italic">Risiko anemia</li>
-                                    <li class="ps-3 py-3 italic">Masalah hipertensi</li>
-                                    <li class="ps-3 py-3 italic">Masalah kelainan refraksi mata</li>
-                                    <li class="ps-3 py-3 italic">Karies gigi</li>
-                                    <li class="ps-3 py-3 italic">Masalah pendengaran</li>
-                                    <li class="ps-3 py-3 italic">Masalah mental emosional</li>
-                                    <li class="ps-3 py-3 italic">Masalah kebugaran</li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Status gizi obesitas
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Status gizi kurang
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Pendek
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Risiko anemia
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah hipertensi
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah kelainan refraksi mata
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Karies gigi
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah pendengaran
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah mental emosional
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah kebugaran
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
                                 </ol>
                             </li>
-                            <li class="ps-3 py-3 italic">
-                                <span>Hasil Penjaringan kelas 10-12 SMA/SMK/MA/ Pesantren</span>
+                            <li class="ps-3 py-3 italic flex flex-col justify-center items-between">
+                                <span>i. Hasil Penjaringan kelas 10-12 SMA/SMK/MA/ Pesantren</span>
                                 <ol class="ms-5 mt-4" style="list-style: lower-alpha">
-                                    <li class="ps-3 py-3 italic">Status gizi obesitas</li>
-                                    <li class="ps-3 py-3 italic">Status gizi kurang</li>
-                                    <li class="ps-3 py-3 italic">Pendek</li>
-                                    <li class="ps-3 py-3 italic">Risiko anemia</li>
-                                    <li class="ps-3 py-3 italic">Masalah hipertensi</li>
-                                    <li class="ps-3 py-3 italic">Masalah kelainan refraksi mata</li>
-                                    <li class="ps-3 py-3 italic">Karies gigi</li>
-                                    <li class="ps-3 py-3 italic">Masalah pendengaran</li>
-                                    <li class="ps-3 py-3 italic">Masalah mental emosional</li>
-                                    <li class="ps-3 py-3 italic">Masalah kebugaran</li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Status gizi obesitas
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Status gizi kurang
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Pendek
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Risiko anemia
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah hipertensi
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah kelainan refraksi mata
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Karies gigi
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah pendengaran
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah mental emosional
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
+                                    <li class="ps-3 py-3 italic flex justify-between items-center">Masalah kebugaran
+                                        <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                                    </li>
                                 </ol>
                             </li>
                         </ol>
                         <h1 class="text-md mt-5 mb-5 font-bold">3. SEKOLAH</h1>
                         <ol style="list-style: lower-alpha">
-                            <li class="ps-3 py-3 italic">Jumlah SD/MI/Sederajat melaksanakan UKS/M</li>
-                            <li class="ps-3 py-3 italic">Jumlah SMP/MTS/Sederajat melaksanakan UKS/M</li>
-                            <li class="ps-3 py-3 italic">Jumlah SMA/MA/Sederajat melaksanakan UKS/M</li>
-                            <li class="ps-3 py-3 italic">Jumlah SD/MI/Sederajat mendapatkan skrinning kesehatan</li>
-                            <li class="ps-3 py-3 italic">Jumlah SMP/MTS/Sederajat mendapatkan skrinning kesehatan</li>
-                            <li class="ps-3 py-3 italic">Jumlah SMA/MA/Sederajat mendapatkan skrinning kesehatan</li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">Jumlah SD/MI/Sederajat melaksanakan UKS/M
+                                <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">Jumlah SMP/MTS/Sederajat melaksanakan UKS/M
+                                <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">Jumlah SMA/MA/Sederajat melaksanakan UKS/M
+                                <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">Jumlah SD/MI/Sederajat mendapatkan skrinning kesehatan
+                                <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">Jumlah SMP/MTS/Sederajat mendapatkan skrinning kesehatan
+                                <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                            </li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">Jumlah SMA/MA/Sederajat mendapatkan skrinning kesehatan
+                                <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                            </li>
                         </ol>
                         <h1 class="text-md mt-5 mb-5 font-bold">3. POSYANDU YANG MEMILIKI KEGIATAN KESEHATAN REMAJA</h1>
                         <ol style="list-style: lower-alpha">
-                            <li class="ps-3 py-3 italic">Jumlah posyandu yang memiliki kegiatan kesehatan remaja</li>
+                            <li class="ps-3 py-3 italic flex justify-between items-center">Jumlah posyandu yang memiliki kegiatan kesehatan remaja
+                                <div>
+                                            <input class="border w-40 py-1" type="number">
+                                            <input class="border w-40 py-1 ms-6" type="number">
+                                        </div>
+                            </li>
                         </ol>
+                        <button type="button" class="mt-5 w-50 self-end focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Save</button>
                     </form>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <label class="pl-5 text-sm mb-3 italic">
-                            a. Jumlah BBL Mendapatkan S-PJB Kritis
-                        </label>
-                        
-                        <div class="flex flex-col md:ml-10 md:flex-row md:gap-4">
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Jumlah data
-                                </label>
-                            </div>
-                    
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Masukkan Data Baru
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <label class="pl-5 text-sm mb-3 italic">
-                            b. Jumlah BBL Hasil Positif/Gagal
-                        </label>
-                        
-                        <div class="flex flex-col md:ml-10 md:flex-row md:gap-4">
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Jumlah data
-                                </label>
-                            </div>
-                    
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Masukkan Data Baru
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <h1 class="text-sm mb-5 font-bold">2. Skrining Lanjutan RSUD</h1>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <p class="pl-5 text-sm mb-3 italic">a. Jumlah BBL Mendapatkan Skrining Lanjutan</p>
-                        <div class="flex flex-col md:ml-10 md:flex-row md:gap-4">
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Jumlah data
-                                </label>
-                            </div>
-                    
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Masukkan Data Baru
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <label class="pl-5 text-sm mb-3 italic">b. Hasil Skrining Lanjutan</label>
-                        <fieldset class="flex flex-col w-full px-10 justify-center">
-                            <label class="pl-5 text-sm mb-3 italic">a. Jumlah PJB Kritis</label>
-                            <div class="flex flex-col md:ml-10 md:flex-row ml-7 md:gap-4">
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Jumlah data
-                                    </label>
-                                </div>
-                        
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Masukkan Data Baru
-                                    </label>
-                                </div>
-                            </div>
-                        </fieldset>
-                        <fieldset class="flex flex-col w-full px-10 justify-center">
-                            <label class="pl-5 text-sm mb-3 italic">b. Jumlah PJB Non Kritis</label>
-                            <div class="flex flex-col md:ml-10 md:flex-row ml-7 md:gap-4">
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Jumlah data
-                                    </label>
-                                </div>
-                        
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Masukkan Data Baru
-                                    </label>
-                                </div>
-                            </div>
-                        </fieldset>
-                        
-                    </fieldset>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <label class="pl-5 text-sm mb-3 italic">c. Jumlah BBL Terdiagnosa PJB</label>
-                        <fieldset class="flex flex-col w-full px-10 justify-center">
-                            <label class="pl-5 text-sm mb-3 italic">a. Mendapatkan Tatalaksana Awal</label>
-                            <div class="flex flex-col md:ml-10 md:flex-row ml-7 md:gap-4">
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Jumlah data
-                                    </label>
-                                </div>
-                        
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Masukkan Data Baru
-                                    </label>
-                                </div>
-                            </div>
-                        </fieldset>
-                        <fieldset class="flex flex-col w-full px-10 justify-center">
-                            <label class="pl-5 text-sm mb-3 italic">b. Dirujuk (untuk mendapatkan Tatalaksana Awal)</label>
-                            <div class="flex flex-col md:ml-10 md:flex-row ml-7 md:gap-4">
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Jumlah data
-                                    </label>
-                                </div>
-                        
-                                <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                    <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                               appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                               focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                        placeholder=" " min="0" required />
-                                    <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                               transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                               peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                               peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                               peer-focus:scale-75 peer-focus:-translate-y-6">
-                                        Masukkan Data Baru
-                                    </label>
-                                </div>
-                            </div>
-                        </fieldset>
-                        
-                    </fieldset>
-                    <h1 class="text-sm mb-5 font-bold">3. KETERANGAN </h1>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <label class="pl-5 text-sm mb-3 italic">
-                            a. Jumlah BBL Meninggal
-                        </label>
-                        
-                        <div class="flex flex-col md:ml-10 md:flex-row md:gap-4">
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Jumlah data
-                                </label>
-                            </div>
-                    
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Masukkan Data Baru
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <label class="pl-5 text-sm mb-3 italic">
-                            a. Jumlah BBL Loss Follow Up
-                        </label>
-                        
-                        <div class="flex flex-col md:ml-10 md:flex-row md:gap-4">
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Jumlah data
-                                </label>
-                            </div>
-                    
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Masukkan Data Baru
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
-                        <label class="pl-5 text-sm mb-3 italic">
-                            c. dll
-                        </label>
-                        
-                        <div class="flex flex-col md:ml-10 md:flex-row md:gap-4">
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Jumlah data
-                                </label>
-                            </div>
-                    
-                            <div class="relative z-0 max-w-sm w-full mb-5 group">
-                                <input type="number" name="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 
-                                           appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 
-                                           focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                                    placeholder=" " min="0" required />
-                                <label for="Jumlah_BBL_Mendapatkan_S-PJB_Kritis"
-                                    class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 
-                                           transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 
-                                           peer-focus:text-blue-600 peer-focus:dark:text-blue-500 
-                                           peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 
-                                           peer-focus:scale-75 peer-focus:-translate-y-6">
-                                    Masukkan Data Baru
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-
-                    
-                    
-                    <button type="button" class="focus:outline-none w-full text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Save</button>
                 </section>
             </div>
         </div>
