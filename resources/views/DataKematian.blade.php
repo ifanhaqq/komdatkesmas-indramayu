@@ -31,26 +31,37 @@
                 @csrf
                 <div class="p-4">
                     <h2 class="text-lg font-semibold mb-2">Data Kematian</h2>
-                    <div class="grid grid-cols-6 gap-4 items-center p-2">
+                    <div class="grid grid-cols-4 gap-4 items-center p-2">
+                        <!-- Tahun -->
                         <label class="col-span-1 font-bold text-gray-700">Tahun</label>
-                        <input type="number"
-                            class="col-span-2 border border-gray-300 p-2 rounded w-full focus:outline-none focus:ring focus:border-blue-300">
-                        <div class="col-span-3"></div>
+                        <div class="col-span-2">
+                            <input id="datepicker-year" type="text"
+                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 
+                                focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 
+                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Pilih Tahun">
+                        </div>
+                
+                        <div class="col-span-1"></div> <!-- Spacer -->
+                
+                        <!-- Bulan -->
                         <label class="col-span-1 font-bold text-gray-700">Bulan</label>
-                        <select class="col-span-2 border border-gray-300 p-2 rounded w-full focus:outline-none focus:ring focus:border-blue-300">
-                            <option>Desember</option>
-                            <option>Januari</option>
-                            <option>Februari</option>
-                            <option>Maret</option>
-                            <option>April</option>
-                            <option>Mei</option>
-                            <option>Juni</option>
-                            <option>Juli</option>
-                            <option>Agustus</option>
-                            <option>September</option>
-                            <option>Oktober</option>
-                            <option>November</option>
-                        </select>
+                        <div class="col-span-2">
+                            <select class="border border-gray-300 p-2 rounded w-full focus:outline-none focus:ring focus:border-blue-300">
+                                <option>Januari</option>
+                                <option>Februari</option>
+                                <option>Maret</option>
+                                <option>April</option>
+                                <option>Mei</option>
+                                <option>Juni</option>
+                                <option>Juli</option>
+                                <option>Agustus</option>
+                                <option>September</option>
+                                <option>Oktober</option>
+                                <option>November</option>
+                                <option>Desember</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <h2 class="text-center text-lg text-red-500 font-bold mb-4">Diisi dengan Data Bulanan</h2>
