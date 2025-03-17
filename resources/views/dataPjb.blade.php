@@ -37,7 +37,6 @@
             <h2 class="font-bold text-red-500 text-center">Diisi dengan Data Yang diperiksa di bulan tersebut</h2>
             <hr class="border-gray-200">
             <div class="block gap-2 md:m-10 mt-10">
-             
                 <section>
                     <h1 class="text-sm mb-5 font-bold">1. Skrining di FKTP/RSUD </h1>
                     <fieldset class="flex flex-col w-full px-4 md:px-10 justify-center">
