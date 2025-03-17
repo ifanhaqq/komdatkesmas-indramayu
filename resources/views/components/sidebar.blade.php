@@ -45,7 +45,7 @@
                             </a>
                         </li>
                         <li class="justify-between items-center w-full text-gray-900 rounded-lg group  dark:text-white">
-                            <div id="screening-button" class="flex cursor-pointer justify-between items-center p-2 gap-2 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 w-full">
+                            <div id="screening-butto" class="flex cursor-pointer justify-between items-center p-2 gap-2 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 w-full">
                                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
                                 </svg>
@@ -64,11 +64,30 @@
                                   </a>
                               </li>
                            </ul>
-                          
-                        </li>     
+                        </li>
+                        <li class="justify-between items-center w-full text-gray-900 rounded-lg group  dark:text-white">
+                            <div id="screening-button" class="flex cursor-pointer justify-between items-center p-2 gap-2 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 w-full">
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                                </svg>
+                                <span>Usia Sekolah dan Remaja</span>
+                                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                                </svg>
+                            </div>
+                            <ul class="hidden py-2 space-y-1 pl-7">
+                              <li class="text-sm rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                                  <a href="/data-usia-sekolah-dan-remaja" class="flex items-center gap-2 p-2 w-full rounded-lg">
+                                      <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                                      </svg>
+                                      <span>Data Program</span>
+                                  </a>
+                              </li>
+                           </ul>
+                        </li>
                     </ul>
                 </li>
-        
                 <li>
                     <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Contoh 2</a>
                 </li>

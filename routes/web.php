@@ -20,3 +20,6 @@ Route::post('/kanban/store', [SaranaAirMinumController::class, 'store'])->name('
 Route::get('/data-pjb', function () {
     return view('dataPjb');
 });
+Route::get("/data-usia-sekolah-dan-remaja", function () {
+    return view('dataUsiaSekolahDanRemaja');
+});
