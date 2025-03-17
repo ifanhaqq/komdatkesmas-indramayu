@@ -20,7 +20,7 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
             </button>
-            
+
             <ul id="dropdown-example" class="hidden py-2 space-y-2 pl-5">
                 <li>
                     <button class="flex justify-between items-center gap-2 w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
@@ -33,8 +33,14 @@
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                         </svg>
+<<<<<<< HEAD
                     </button>    
                  
+=======
+                    </button>
+
+
+>>>>>>> 4f0ca4d (Entry Data - Data Jampersal)
                     <ul class="hidden py-2 space-y-2 pl-10">
                         <li class="flex justify-between items-center w-full p-2 text-gray-900 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
                             <a href="/Entry-Data" class="flex items-center gap-2">
@@ -44,6 +50,7 @@
                                 <span>contoh form 1</span>
                             </a>
                         </li>
+<<<<<<< HEAD
                         <li class="justify-between items-center w-full text-gray-900 rounded-lg group  dark:text-white">
                             <div id="screening-button" class="flex cursor-pointer justify-between items-center p-2 gap-2 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 w-full">
                                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -79,22 +86,30 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
                                 </svg>
                                 <span>Data Kematian</span>
+=======
+                        <li class="flex justify-between items-center w-full p-2 text-gray-900 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                            <a href="/Data-Jampersal" class="flex items-center gap-2">
+                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                                </svg>
+                                <span>Data Jampersal</span>
+>>>>>>> 4f0ca4d (Entry Data - Data Jampersal)
                             </a>
                         </li>
                     </ul>
                 </li>
-        
+
                 <li>
                     <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Contoh 2</a>
                 </li>
-        
+
                 <li>
                     <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Contoh 3</a>
                 </li>
             </ul>
         </li>
-        
-        
+
+
           <li>
              <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                 <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
