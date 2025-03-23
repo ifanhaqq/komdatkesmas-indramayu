@@ -1,4 +1,4 @@
-<aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
+{{-- <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
     <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
        <ul class="space-y-2 font-medium">
           <li>
@@ -157,7 +157,75 @@
        </ul>
     </div>
 </aside>
+--}}
 
-
-
-
+{{-- Rewrite --}}
+<aside class="border px-6 py-6 h-full overflow-y-hidden hover:overflow-y-scroll">
+    <ul class="bg-slate-50">
+        {{-- Dashboard --}}
+        <li class="border flex items-center justify-between bg-slate-100">
+            <a class="flex gap-3 w-full py-2" href="#">
+                <img class="w-6 border" src="{{ asset('icons/DashboardIcon.svg') }}" alt="Dashboard Icon">
+                <p class="border" href="">Dashboard</p>
+            </a>
+        </li>
+        {{-- Kesmas --}}
+        <li class="border flex items-center justify-between bg-slate-100">
+            <a class="flex gap-3 w-full py-2 items-center" href="#">
+                <img class="w-6 border" src="{{ asset('icons/KesmasIcon.svg') }}" alt="Kesmas Icon">
+                <p class="border" href="">Kesehatan Masyarakat</p>
+                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+            </a>
+        </li>
+        {{-- P2P --}}
+        <li class="border py-2 flex-col justify-center bg-slate-100">
+            <a class="flex gap-3 justify-between" href="#">
+                <div class="flex gap-3">
+                    <img class="w-6 border" src="{{ asset('icons/P2PIcon.svg') }}" alt="P2P Icon">
+                    <p class="border" href="">P2P</p>
+                </div>
+                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+            </a>
+            {{-- Sub Menu P2P --}}
+            <ul class="bg-slate-200">
+                {{-- Sub Bagian Imunisasi --}}
+                <li class="border ms-3 flex-col justify-between bg-slate-300">
+                    <a class="flex justify-between items-center py-2" href="#">
+                        <p class="border">Sub. Bagian Imunisasi</p>
+                        <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                    </a>
+                </li>
+                {{-- Sub Bagian Penyakit Menular --}}
+                <li class="border ms-3 flex-col justify-between bg-slate-300">
+                    <a class="flex justify-between items-center py-2">
+                        <p class="border">Sub. Bagian Penyakit Menular</p>
+                        <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                    </a>
+                </li>
+                {{-- Sub Bagian Penyakit Tidak Menular --}}
+                <li class="border ms-3 flex-col justify-between bg-slate-300">
+                    <a class="flex justify-between items-center">
+                        <p class="border">Sub. Bagian Penyakit Tidak Menular</p>
+                        <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                    </a>
+                    <ul class="bg-slate-400">
+                        <li class="border ms-3">Aplikasi Kemenkes</li>
+                        <li class="border ms-3">Laporan Manual</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        {{-- SDMK --}}
+        <li class="border py-2 bg-slate-100">
+            <p href="">SDMK</p>
+        </li>
+        {{-- Sekretariat --}}
+        <li class="border py-2 bg-slate-100">
+            <p href="">Sekretariat</p>
+        </li>
+        {{-- Yankes --}}
+        <li class="border py-2 bg-slate-100">
+            <p href="">Yankes</p>
+        </li>
+    </ul>
+</aside>

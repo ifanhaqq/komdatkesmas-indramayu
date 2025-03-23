@@ -4,18 +4,24 @@ use App\Http\Controllers\SaranaAirMinumController;
 use App\Models\SaranaAirMinum;
 use Illuminate\Support\Facades\Route;
 
+// Index
 Route::get('/', function () {
     return view('login');
 });
+
+// Dashboard
 Route::get('/dashboard', function () {
     $data = (new SaranaAirMinumController)->getAll();
 
     return view('dashboard', ['datas' => $data]);
 });
+
+// Data Entry
 Route::get('/Entry-Data', function () {
     return view('EntryData');
 });
 
+// Data Kematian
 Route::get('/Data-Kematian', function () {
     return view('DataKematian');
 });
@@ -35,3 +41,7 @@ Route::get('/data-program', function () {
 Route::get("/data-usia-sekolah-dan-remaja", function () {
     return view('dataUsiaSekolahDanRemaja');
 });
+
+Route::get("/test", function () {
+    return view("testView");
+})->name("test");
