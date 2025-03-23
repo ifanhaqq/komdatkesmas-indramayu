@@ -35,6 +35,15 @@ Route::get('/data-pjb', function () {
     return view('dataPjb');
 });
 
+Route::prefix('data-indikator')->group(function () {
+    Route::get('/', function () {
+        return view('DataIndikator');
+    }); 
+    Route::get('/sub-data-indikator', function () {
+        return view('subDataIndikator');
+    }); 
+});
+
 Route::get('/data-program', function () {
     return view('data-program');
 });
