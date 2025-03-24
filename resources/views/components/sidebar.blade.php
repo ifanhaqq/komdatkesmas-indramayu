@@ -67,14 +67,6 @@
                            </ul>
                         </li>
                         <li class="flex justify-between items-center w-full p-2 text-gray-900 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
-                            <a href="/data-indikator" class="flex items-center gap-2">
-                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
-                                </svg>
-                                <span>Data Indikator</span>
-                            </a>
-                        </li>
-                        <li class="flex justify-between items-center w-full p-2 text-gray-900 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
                             <a href="/data-program" class="flex items-center gap-2">
                                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
@@ -172,64 +164,175 @@
     <ul class="bg-slate-50">
         {{-- Dashboard --}}
         <li class="border flex items-center justify-between bg-slate-100">
-            <a class="flex gap-3 w-full py-2" href="#">
-                <img class="w-6 border" src="{{ asset('icons/DashboardIcon.svg') }}" alt="Dashboard Icon">
-                <p class="border" href="">Dashboard</p>
+            <a class="flex gap-3 w-full py-2 font-bold border" href="#">
+                <img class="w-6 border" src="{{ asset('icons/HomeIcon.svg') }}" alt="Dashboard Icon">
+                <p class="border leading-tight">Dashboard</p>
             </a>
         </li>
         {{-- Kesmas --}}
-        <li class="border flex items-center justify-between bg-slate-100">
-            <a class="flex gap-3 w-full py-2 items-center" href="#">
-                <img class="w-6 border" src="{{ asset('icons/KesmasIcon.svg') }}" alt="Kesmas Icon">
-                <p class="border" href="">Kesehatan Masyarakat</p>
-                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
-            </a>
-        </li>
-        {{-- P2P --}}
-        <li class="border py-2 flex-col justify-center bg-slate-100">
-            <a class="flex gap-3 justify-between" href="#">
+        <li class="border flex-col items-center justify-between bg-slate-100">
+            <button type="button" class="flex gap-3 w-full py-2 justify-between font-bold border bg-amber-400 cursor-pointer">
                 <div class="flex gap-3">
-                    <img class="w-6 border" src="{{ asset('icons/P2PIcon.svg') }}" alt="P2P Icon">
-                    <p class="border" href="">P2P</p>
+                    <img class="w-6 border" src="{{ asset('icons/KesmasIcon.svg') }}" alt="Kesmas Icon">
+                    <p class="border leading-tight" href="">Kesehatan Masyarakat</p>
                 </div>
                 <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
-            </a>
+            </button>
+            {{-- Sub Menu Kesmas --}}
+            <ul class="bg-slate-200">
+                {{-- Sub Bagian Kesehatan Keluarga dan Gizi --}}
+                <li class="border flex-col justify-between my-2">
+                    <button type="button" class="flex justify-between items-center py-2 text-start bg-green-700 cursor-pointer" href="#imunisasi">
+                        <p class="border leading-tight ps-3">Sub. Bagian Kesehatan Keluarga dan Gizi</p>
+                        <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                    </button>
+                </li>
+                {{-- Sub Bagian Kesehatan Lingkungan --}}
+                <li class="border flex-col justify-between my-2">
+                    <button type="button" class="flex justify-between items-center py-2 text-start bg-green-700 cursor-pointer" href="#imunisasi">
+                        <p class="border leading-tight ps-3">Sub. Bagian Kesehatan Lingkungan</p>
+                        <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                    </button>
+                </li>
+                {{-- Sub Bagian Promosi Kesehatan --}}
+                <li class="border flex-col justify-between my-2">
+                    <button type="button" class="flex justify-between items-center py-2 text-start bg-green-700 cursor-pointer" href="#imunisasi">
+                        <p class="border leading-tight ps-3">Sub. Bagian Promosi Kesehatan</p>
+                        <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                    </button>
+                </li>
+            </ul>
+        </li>
+        {{-- P2P --}}
+        <li class="border flex-col justify-center bg-slate-100">
+            <button type="button" class="flex gap-3 justify-between border py-2 w-full font-bold bg-amber-400 cursor-pointer text-start" href="#p2popen">
+                <div class="flex gap-3">
+                    <img class="w-6 border" src="{{ asset('icons/P2PIcon.svg') }}" alt="P2P Icon">
+                    <p class="border leading-tight" href="">Program Pencegahan dan Pengendalian Penyakit</p>
+                </div>
+                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+            </button>
             {{-- Sub Menu P2P --}}
             <ul class="bg-slate-200">
                 {{-- Sub Bagian Imunisasi --}}
-                <li class="border ms-3 flex-col justify-between bg-slate-300">
-                    <a class="flex justify-between items-center py-2" href="#">
-                        <p class="border">Sub. Bagian Imunisasi</p>
+                <li class="border flex-col justify-between bg-slate-300 my-2">
+                    <button type="button" class="flex justify-between items-center py-2 text-start w-full bg-green-700 cursor-pointer" href="#imunisasi">
+                        <p class="border leading-tight ps-3">Sub. Bagian Imunisasi</p>
                         <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
-                    </a>
+                    </button>
+                    <ul class="bg-slate-400 border">
+                        <li class="border my-2 bg-slate-500">
+                            <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
+                                <p class="border ps-3">Aplikasi Kemenkes</p>
+                                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                            </button>
+                            <ul class="bg-red-500">
+                                <li class="border ps-6 my-2 bg-red-700">
+                                    <a class="border" href="">Test 1</a>
+                                </li>
+                                <li class="border ps-6 my-2 bg-red-700">
+                                    <a class="border" href="">Test 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="border my-2 bg-slate-500">
+                            <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
+                                <p class="border ps-3">Laporan Manual</p>
+                                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                            </button>
+                            <ul class="bg-red-500">
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#hasil-imunisasi-baduta">Hasil Imunisasi Baduta</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#hasil-imunisasi-bayi">Hasil Imunisasi Bayi</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#jumlah-presentasi-ibu-hamil-diimunisasi">Jumlah dan Presentasi Ibu Hamil Diimunisasi</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#jumlah-presentasi-wus-tidak-hamil-diimunisasi">Jumlah dan Presentasi WUS Tidak Hamil Diimunisasi</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#jumlah-total-presentase-wus-diimunisasi-td">Jumlah Total dan Presentase WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#status-td-2plus-bumil">Status TD 2+ Bumil</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#status-td-ibu-hamil">Status TD Ibu Hamil</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#status-td-wus-tidak-hamil">Status TD WUS Tidak Hamil</a>
+                                    </div>
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="#status-wus-diimunisasi-td">Status WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
+                                    </div>
+                                </li>     
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 {{-- Sub Bagian Penyakit Menular --}}
-                <li class="border ms-3 flex-col justify-between bg-slate-300">
-                    <a class="flex justify-between items-center py-2">
-                        <p class="border">Sub. Bagian Penyakit Menular</p>
+                <li class="border flex-col justify-between my-2">
+                    <button type="button" class="flex justify-between items-center py-2 text-start w-full bg-green-700 cursor-pointer" href="#pm">
+                        <p class="border leading-tight ps-3">Sub. Bagian Penyakit Menular</p>
                         <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
-                    </a>
+                    </button>
                 </li>
                 {{-- Sub Bagian Penyakit Tidak Menular --}}
-                <li class="border ms-3 flex-col justify-between bg-slate-300">
-                    <a class="flex justify-between items-center">
-                        <p class="border">Sub. Bagian Penyakit Tidak Menular</p>
+                <li class="border flex-col justify-between bg-slate-300 my-2">
+                    <button type="button" class="flex justify-between items-center py-2 text-start w-full bg-green-700 cursor-pointer" href="#ptm">
+                        <p class="border leading-tight ps-3">Sub. Bagian Penyakit Tidak Menular</p>
                         <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
-                    </a>
-                    <ul class="bg-slate-400">
-                        <li class="border ms-3">Aplikasi Kemenkes</li>
-                        <li class="border ms-3">Laporan Manual</li>
+                    </button>
+                    <ul class="bg-slate-400 border">
+                        <li class="border my-2 bg-slate-500">
+                            <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
+                                <p class="border ps-3">Aplikasi Kemenkes</p>
+                                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                            </button>
+                        </li>
+                        <li class="border my-2 bg-slate-500">
+                            <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
+                                <p class="border ps-3">Laporan Manual</p>
+                                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                            </button>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </li>
         {{-- SDMK --}}
-        <li class="border py-2 bg-slate-100">
-            <p href="">SDMK</p>
+        <li class="border flex items-center justify-between bg-slate-100">
+            <button class="flex gap-3 w-full py-2 font-bold border" href="#">
+                <img class="w-6 border" src="{{ asset('icons/HomeIcon.svg') }}" alt="Dashboard Icon">
+                <p class="border leading-tight">Sumber Daya Manusia Kesehatan</p>
+            </button>
         </li>
         {{-- Sekretariat --}}
-        <li class="border py-2 bg-slate-100">
-            <p href="">Sekretariat</p>
+        <li class="border flex items-center justify-between bg-slate-100">
+            <a class="flex gap-3 w-full py-2 font-bold border" href="#">
+                <img class="w-6 border" src="{{ asset('icons/SekretariatIcon.svg') }}" alt="Dashboard Icon">
+                <p class="border leading-tight">Sekretariat</p>
+            </a>
         </li>
         {{-- Yankes --}}
         <li class="border py-2 bg-slate-100">

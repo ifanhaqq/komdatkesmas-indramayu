@@ -57,8 +57,27 @@
 
 <nav class="border col-start-1 col-end-3 flex justify-between items-center px-6">
   {{-- Logo Perusahaan --}}
-  <div id="logo-image" class="border">This is Logo</div>
+  <div id="logo-image" class="border flex items-center gap-3">
+    <img class="w-14 border" src="{{ asset('images/indramayu.png') }}" alt="Logo Profil">
+    <div id="logo-title" class="flex flex-col leading-none">
+      <h1 class="text-[10px] tracking-widest">DINAS KESEHATAN</h1>
+      <h1 class="font-bold text-2xl">INDRAMAYU</h1>
+    </div>
+  </div>
   {{-- <ul id="menu" class="border"></ul> --}}
   {{-- Profile Box --}}
-  <div id="profile-box" class="border">This is Profile Box</div>
+  <div id="profile-box" class="border flex items-center gap-3">
+    <div id="profile-name" class="border">
+      <p class="border text-sm">Profile Name</p>
+      <p class="border text-sm font-bold">Job </p>
+    </div>
+    <div>
+      <div id="profile-image" class="w-12 h-12 border rounded-full">
+        <img src="" alt="">
+      </div>
+    </div>
+    <button class="border cursor-pointer" type="button">
+      <img class="w-5 h-5" src="{{ asset('icons/DropdownIcon.svg') }}" alt="">
+    </button>
+  </div>
 </nav>
