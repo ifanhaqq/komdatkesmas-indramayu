@@ -57,13 +57,13 @@
         </div>
         {{-- Export Box --}}
         <div class="border flex gap-3 justify-end">
-            <div class="border flex gap-2 p-3">
+            <div class="border flex gap-2 p-2">
                 <img class="w-6 border" src="{{ asset('icons/ImportIcon.svg') }}" alt="Import Icon">
                 <p class="border">Ekspor Rekap Sasaran</p>
             </div>
-            <div class="border flex gap-2 p-3">
+            <div class="border flex gap-2 p-2">
                 <img class="w-6 border" src="{{ asset('icons/ImportIcon.svg') }}" alt="Import Icon">
-                <p class="border">Ekspor Rekap Sasaran</p>
+                <p class="border">Ekspor Daftar Sasaran Bumil</p>
             </div>
         </div>
         {{-- Tabel --}}

@@ -255,17 +255,17 @@
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
                                     <div class="border ps-6">
-                                        <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-presentasi-ibu-hamil-diimunisasi">Jumlah dan Presentasi Ibu Hamil Diimunisasi</a>
+                                        <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-ibu-hamil-diimunisasi">Jumlah dan Persentase Ibu Hamil Diimunisasi</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
                                     <div class="border ps-6">
-                                        <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-presentasi-wus-tidak-hamil-diimunisasi">Jumlah dan Presentasi WUS Tidak Hamil Diimunisasi</a>
+                                        <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-wus-tidak-hamil-diimunisasi">Jumlah dan Persentase WUS Tidak Hamil Diimunisasi</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
                                     <div class="border ps-6">
-                                        <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-total-dan-presentase-wus-hamil-plus-tidak-hamil-diimunisasi-td">Jumlah Total dan Presentase WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
+                                        <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-total-dan-persentase-wus-hamil-plus-tidak-hamil-diimunisasi-td">Jumlah Total dan Persentase WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">

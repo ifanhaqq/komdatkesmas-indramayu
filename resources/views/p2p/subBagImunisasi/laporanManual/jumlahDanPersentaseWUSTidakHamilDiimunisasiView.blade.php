@@ -1,6 +1,6 @@
 <x-layout>
     <div class="border px-6 py-6 h-full flex flex-col gap-5 overflow-y-scroll">
-        <h1 class="url-route border">/ test / p2p / sub-bagian-imunisasi / laporan-manual / status-td-ibu-hamil</h1>
+        <h1 class="url-route border">/ test / p2p / sub-bagian-imunisasi / laporan-manual / jumlah-dan-persentase-wus-tidak-hamil-diimunisasi</h1>
         <h1 class="border text-2xl">Nama Fitur</h1>
         <div class="border">
             <form action="" class="w-full grid grid-cols-2 gap-3">
@@ -72,8 +72,8 @@
                 <tr>
                     <th class="border-b px-4 py-2" rowspan="2">NO</th>
                     <th class="border-b px-4 py-2 text-left" rowspan="2">Tetanus Difentri</th>
-                    <th class="border-b px-4 py-2" rowspan="2">Sasaran Bumil</th>
-                    <th class="border-b px-4 py-2" colspan="4">Status TD Ibu Hamil</th>
+                    <th class="border-b px-4 py-2" rowspan="2">Sasaran WUS Tidak Hamil</th>
+                    <th class="border-b px-4 py-2" colspan="4">Status TD WUS Tidak Hamil</th>
                 </tr>
                 <tr>
                     <th class="border-b px-4 py-2">Bulan Januari</th>

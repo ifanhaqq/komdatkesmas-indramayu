@@ -73,14 +73,14 @@ Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta
 Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-bayi", function () {
     return view("p2p.subBagImunisasi.laporanManual.hasilImunisasiBayiView");
 });
-Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-presentasi-ibu-hamil-diimunisasi", function () {
-    return view("p2p.subBagImunisasi.laporanManual.jumlahDanPresentasiIbuHamilDiimunisasiView");
+Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-ibu-hamil-diimunisasi", function () {
+    return view("p2p.subBagImunisasi.laporanManual.jumlahDanPersentaseIbuHamilDiimunisasiView");
 });
-Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-presentasi-wus-tidak-hamil-diimunisasi", function () {
-    return view("p2p.subBagImunisasi.laporanManual.jumlahDanPresentasiWUSTidakHamilDiimunisasiView");
+Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-wus-tidak-hamil-diimunisasi", function () {
+    return view("p2p.subBagImunisasi.laporanManual.jumlahDanPersentaseWUSTidakHamilDiimunisasiView");
 });
-Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-total-dan-presentase-wus-hamil-plus-tidak-hamil-diimunisasi-td", function () {
-    return view("p2p.subBagImunisasi.laporanManual.jumlahTotalDanPresentaseWUSHamilPlusTidakHamilDiimunisasiTDView");
+Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-total-dan-persentase-wus-hamil-plus-tidak-hamil-diimunisasi-td", function () {
+    return view("p2p.subBagImunisasi.laporanManual.jumlahTotalDanPersentaseWUSHamilPlusTidakHamilDiimunisasiTDView");
 });
 Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/status-td2-plus-bumil", function () {
     return view("p2p.subBagImunisasi.laporanManual.statusTD2PlusBumilView");
