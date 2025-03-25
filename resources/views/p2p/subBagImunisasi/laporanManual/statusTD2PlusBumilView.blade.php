@@ -66,40 +66,34 @@
                 <p class="border">Ekspor Rekap Sasaran</p>
             </div>
         </div>
-        {{-- Tabel --}}
         <table class="table-auto w-full border-collapse">
             <thead class="bg-gray-100">
                 <tr>
-                    <th class="border-b px-4 py-2" rowspan="2">NO</th>
-                    <th class="border-b px-4 py-2 text-left" rowspan="2">Tetanus Difentri</th>
-                    <th class="border-b px-4 py-2" rowspan="2">Sasaran WUS Tidak Hamil</th>
+                    <th class="border-b px-4 py-2" rowspan="3">NO</th>
+                    <th class="border-b px-4 py-2" rowspan="3">Tetanus Difentri</th>
+                    <th class="border-b px-4 py-2" rowspan="3">Sasaran WUS Tidak Hamil</th>
                     <th class="border-b px-4 py-2" colspan="4">Status TD2+ Bumil</th>
                 </tr>
                 <tr>
-                    <th class="border-b px-4 py-2">Bulan Januari</th>
+                    <th class="border-b px-4 py-2" colspan="2">BLN JAN</th>
+                    <th class="border-b px-4 py-2" colspan="2">S/D BLN JAN</th>
+                </tr>
+                <tr>
+                    <th class="border-b px-4 py-2">#</th>
                     <th class="border-b px-4 py-2">%</th>
-                    <th class="border-b px-4 py-2">s/d Bulan Januari</th>
+                    <th class="border-b px-4 py-2">#</th>
                     <th class="border-b px-4 py-2">%</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td class="border-b px-4 py-2 text-center">1</td>
-                    <td class="border-b px-4 py-2">Data 1</td>
-                    <td class="border-b px-4 py-2 text-center">100</td>
-                    <td class="border-b px-4 py-2 text-center">50</td>
-                    <td class="border-b px-4 py-2 text-center">50%</td>
-                    <td class="border-b px-4 py-2 text-center">80</td>
-                    <td class="border-b px-4 py-2 text-center">80%</td>
-                </tr>
-                <tr>
+                    <td class="border-b px-4 py-2">TD2+</td>
+                    <td class="border-b px-4 py-2 text-center">42</td>
                     <td class="border-b px-4 py-2 text-center">2</td>
-                    <td class="border-b px-4 py-2">Data 2</td>
-                    <td class="border-b px-4 py-2 text-center">150</td>
-                    <td class="border-b px-4 py-2 text-center">75</td>
-                    <td class="border-b px-4 py-2 text-center">50%</td>
-                    <td class="border-b px-4 py-2 text-center">120</td>
-                    <td class="border-b px-4 py-2 text-center">80%</td>
+                    <td class="border-b px-4 py-2 text-center">2,5</td>
+                    <td class="border-b px-4 py-2 text-center">2</td>
+                    <td class="border-b px-4 py-2 text-center">2,5</td>
                 </tr>
             </tbody>
         </table>
