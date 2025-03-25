@@ -5,8 +5,8 @@ use App\Models\SaranaAirMinum;
 use Illuminate\Support\Facades\Route;
 
 // Index
-Route::get('/', function () {
-    return view('login');
+Route::get('/', action: function () {
+    return view('auth.login');
 });
 
 // Dashboard
