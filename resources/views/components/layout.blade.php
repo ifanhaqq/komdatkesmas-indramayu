@@ -19,7 +19,7 @@
         <x-sidebar></x-sidebar>
 
         {{-- Content Slot --}}
-        <main>
+        <main class="overflow-hidden">
             {{ $slot }}
         </main>
     </section>

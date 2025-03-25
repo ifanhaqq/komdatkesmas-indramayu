@@ -205,8 +205,8 @@
         </li>
         {{-- P2P --}}
         <li class="border flex-col justify-center bg-slate-100">
-            <button type="button" class="flex gap-3 justify-between border py-2 w-full font-bold bg-amber-400 cursor-pointer text-start" href="#p2popen">
-                <div class="flex gap-3">
+            <button type="button" class="flex gap-3 justify-between items-center border py-2 w-full font-bold bg-amber-400 cursor-pointer text-start" href="#p2popen">
+                <div class="flex gap-3 items-center">
                     <img class="w-6 border" src="{{ asset('icons/P2PIcon.svg') }}" alt="P2P Icon">
                     <p class="border leading-tight" href="">Program Pencegahan dan Pengendalian Penyakit</p>
                 </div>

@@ -73,7 +73,7 @@
   <div id="profile-box" class="border flex items-center gap-3">
     <div id="profile-name" class="border">
       <p class="border text-sm">Profile Name</p>
-      <p class="border text-sm font-bold">Job </p>
+      <p class="border text-sm font-semibold">Job </p>
     </div>
     <div>
       <div id="profile-image" class="w-12 h-12 border rounded-full">
