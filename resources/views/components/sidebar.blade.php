@@ -186,6 +186,13 @@
                         <p class="border leading-tight ps-3">Sub. Bagian Kesehatan Keluarga dan Gizi</p>
                         <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
                     </button>
+                    <ul class="bg-red-500">
+                        <li class="border py-2 my-2 bg-red-700">
+                            <div class="border ps-6">
+                                <a class="bg-white" href="/test/kesehatan-masyarakat/sub-bag-kesehatan-keluarga-dan-gizi/si-gizi">Si-Gizi</a>
+                            </div>
+                        </li>
+                    </ul>
                 </li>
                 {{-- Sub Bagian Kesehatan Lingkungan --}}
                 <li class="border flex-col justify-between my-2">
@@ -287,7 +294,12 @@
                                     <div class="border ps-6">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/status-wus-hamil-plus-tidak-hamil-diimunisasi-td">Status WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
                                     </div>
-                                </li>     
+                                </li>
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-6">
+                                        <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/spm">SPM</a>
+                                    </div>
+                                </li>
                             </ul>
                         </li>
                     </ul>

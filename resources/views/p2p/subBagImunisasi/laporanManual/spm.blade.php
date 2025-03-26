@@ -1,6 +1,6 @@
 <x-layout>
     <div class="border px-6 py-6 h-full flex flex-col gap-5 overflow-y-scroll">
-        <h1 class="url-route border">/ test / p2p / sub-bagian-imunisasi / laporan-manual / Sasaran Baduta</h1>
+        <h1 class="url-route border">/ test / p2p / sub-bagian-imunisasi / laporan-manual / SPM</h1>
         <h1 class="border text-2xl">Nama Fitur</h1>
         <div class="border">
             <form action="" class="w-full grid grid-cols-2 gap-3">
@@ -63,80 +63,64 @@
             </div>
             <div class="border flex gap-2 p-3">
                 <img class="w-6 border" src="{{ asset('icons/ImportIcon.svg') }}" alt="Import Icon">
-                <p class="border">Export Daftar Sasaran Imunisasi Bayi</p>
+                <p class="border">Export SPM</p>
             </div>
         </div>
         <table class="table-auto w-full border-collapse">
             <thead class="bg-gray-100">
                 <tr>
-                    <th class="border px-4 py-2" rowspan="3">NO</th>
-                    <th class="border px-4 py-2" rowspan="3">Vaksin</th>
-                    <th class="border px-4 py-2" rowspan="2" colspan="3">Sasaran Baduta</th>
-                    <th class="border px-4 py-2" colspan="8">Baduta</th>
+                    <th class="border px-4 py-2" rowspan="2">No</th>
+                    <th class="border px-4 py-2" rowspan="2">Jenis Pelayanan Dasar</th>
+                    <th class="border px-4 py-2" rowspan="2">Indikator Capaian SPM</th>
+                    <th class="border px-4 py-2" rowspan="2">Jumlah Sasaran</th>
+                    <th class="border px-4 py-2" colspan="3">Jumlah Yang Dicapai</th>
+                    <th class="border px-4 py-2" colspan="2">Jumlah Yang Dicapai (%)</th>
+                    <th class="border px-4 py-2" rowspan="2">Skrining</th>
                 </tr>
                 <tr>
-                    <th class="border px-4 py-2" colspan="4">BLN JAN</th>
-                    <th class="border px-4 py-2" colspan="4">S/D BLN JAN</th>
-                </tr>
-                <tr>
-                    <th class="border px-4 py-2">L</th>
-                    <th class="border px-4 py-2">P</th>
-                    <th class="border px-4 py-2">JML</th>
-                    <th class="border px-4 py-2">L</th>
-                    <th class="border px-4 py-2">P</th>
-                    <th class="border px-4 py-2">#JML</th>
-                    <th class="border px-4 py-2">%</th>
-                    <th class="border px-4 py-2">L</th>
-                    <th class="border px-4 py-2">P</th>
-                    <th class="border px-4 py-2">#JML</th>
-                    <th class="border px-4 py-2">%</th>
+                    <th class="border px-4 py-2">Bulan Baru</th>
+                    <th class="border px-4 py-2">Bulan Sebelumnya</th>
+                    <th class="border px-4 py-2">Kumulatif</th>
+                    <th class="border px-4 py-2">Bulan Baru</th>
+                    <th class="border px-4 py-2">Kumulatif</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td class="border px-4 py-2 text-center">1</td>
-                    <td class="border px-4 py-2">HB0 (< 24 JAM)</td>
-                    <td class="border px-4 py-2 text-center">5</td>
-                    <td class="border px-4 py-2 text-center">5</td>
-                    <td class="border px-4 py-2 text-center">10</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">4</td>
-                    <td class="border px-4 py-2 text-center">2,5</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">4</td>
-                    <td class="border px-4 py-2 text-center">2,5</td>
+                    <td class="border px-4 py-2">Cakupan Pelayanan Kesehatan pada usia Produktif (15 - 59 Thn)</td>
+                    <td class="border px-4 py-2">Jumlah Usia produktif 15 - 59 tahun di wilayah kerjanya yang...</td>
+                    <td class="border px-4 py-2 text-center">20598</td>
+                    <td class="border px-4 py-2 text-center">907</td>
+                    <td class="border px-4 py-2 text-center">0</td>
+                    <td class="border px-4 py-2 text-center">907</td>
+                    <td class="border px-4 py-2 text-center">4%</td>
+                    <td class="border px-4 py-2 text-center">4%</td>
+                    <td class="border px-4 py-2 text-center">907</td>
                 </tr>
                 <tr>
                     <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2">HB0 (1-7 Hari)</td>
-                    <td class="border px-4 py-2 text-center">5</td>
-                    <td class="border px-4 py-2 text-center">5</td>
-                    <td class="border px-4 py-2 text-center">10</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">4</td>
-                    <td class="border px-4 py-2 text-center">2,5</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">4</td>
-                    <td class="border px-4 py-2 text-center">2,5</td>
+                    <td class="border px-4 py-2">Cakupan Pelayanan Kesehatan Penderita Diabetes Melitus</td>
+                    <td class="border px-4 py-2">Jumlah penderita diabetes melitus usia 15 tahun ke atas di wilayah kerjanya yang...</td>
+                    <td class="border px-4 py-2 text-center">534</td>
+                    <td class="border px-4 py-2 text-center">50</td>
+                    <td class="border px-4 py-2 text-center">0</td>
+                    <td class="border px-4 py-2 text-center">50</td>
+                    <td class="border px-4 py-2 text-center">9%</td>
+                    <td class="border px-4 py-2 text-center">9%</td>
+                    <td class="border px-4 py-2 text-center">110</td>
                 </tr>
                 <tr>
                     <td class="border px-4 py-2 text-center">3</td>
-                    <td class="border px-4 py-2">HB0 (Total)</td>
-                    <td class="border px-4 py-2 text-center">5</td>
-                    <td class="border px-4 py-2 text-center">5</td>
-                    <td class="border px-4 py-2 text-center">10</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">4</td>
-                    <td class="border px-4 py-2 text-center">2,5</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">2</td>
-                    <td class="border px-4 py-2 text-center">4</td>
-                    <td class="border px-4 py-2 text-center">2,5</td>
+                    <td class="border px-4 py-2">Cakupan Pelayanan Kesehatan Penderita Hipertensi</td>
+                    <td class="border px-4 py-2">Jumlah penderita hipertensi usia 15 tahun ke atas di wilayah kerjanya...</td>
+                    <td class="border px-4 py-2 text-center">20598</td>
+                    <td class="border px-4 py-2 text-center">907</td>
+                    <td class="border px-4 py-2 text-center">0</td>
+                    <td class="border px-4 py-2 text-center">907</td>
+                    <td class="border px-4 py-2 text-center">4%</td>
+                    <td class="border px-4 py-2 text-center">4%</td>
+                    <td class="border px-4 py-2 text-center">907</td>
                 </tr>
             </tbody>
         </table>
