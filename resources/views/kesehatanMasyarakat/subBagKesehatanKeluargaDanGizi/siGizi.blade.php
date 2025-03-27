@@ -1,6 +1,6 @@
 <x-layout>
     <div class="border px-6 py-6 h-full flex flex-col gap-5 overflow-y-scroll">
-        <h1 class="url-route border">/ test / p2p / sub-bagian-imunisasi / laporan-manual / Status TD2+ Bumil</h1>
+        <h1 class="url-route border">/ test / Kesehatan-Masyarakat  / sub-bagian-kesehatan-keluarga-dan-gizi / si-gizi</h1>
         <h1 class="border text-2xl">Nama Fitur</h1>
         <div class="border">
             <form action="" class="w-full grid grid-cols-2 gap-3">
@@ -63,37 +63,56 @@
             </div>
             <div class="border flex gap-2 p-3">
                 <img class="w-6 border" src="{{ asset('icons/ImportIcon.svg') }}" alt="Import Icon">
-                <p class="border">Ekspor Rekap Sasaran</p>
+                <p class="border">Export SPM</p>
             </div>
         </div>
         <table class="table-auto w-full border-collapse">
             <thead class="bg-gray-100">
                 <tr>
-                    <th class="border-b px-4 py-2" rowspan="3">NO</th>
-                    <th class="border-b px-4 py-2" rowspan="3">Tetanus Difentri</th>
-                    <th class="border-b px-4 py-2" rowspan="3">Sasaran WUS Tidak Hamil</th>
-                    <th class="border-b px-4 py-2" colspan="4">Status TD2+ Bumil</th>
+                    <th class="border px-4 py-2" rowspan="2">No</th>
+                    <th class="border px-4 py-2" rowspan="2">Posyandu</th>
+                    <th class="border px-4 py-2" colspan="3">Balita</th>
                 </tr>
                 <tr>
-                    <th class="border-b px-4 py-2" colspan="2">BLN JAN</th>
-                    <th class="border-b px-4 py-2" colspan="2">S/D BLN JAN</th>
-                </tr>
-                <tr>
-                    <th class="border-b px-4 py-2">#</th>
-                    <th class="border-b px-4 py-2">%</th>
-                    <th class="border-b px-4 py-2">#</th>
-                    <th class="border-b px-4 py-2">%</th>
+                    <th class="border px-4 py-2">Laki - Laki</th>
+                    <th class="border px-4 py-2">Perempuan</th>
+                    <th class="border px-4 py-2">Total</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="border-b px-4 py-2 text-center">1</td>
-                    <td class="border-b px-4 py-2">TD2+</td>
-                    <td class="border-b px-4 py-2 text-center">42</td>
-                    <td class="border-b px-4 py-2 text-center">2</td>
-                    <td class="border-b px-4 py-2 text-center">2,5</td>
-                    <td class="border-b px-4 py-2 text-center">2</td>
-                    <td class="border-b px-4 py-2 text-center">2,5</td>
+                    <td class="border px-4 py-2 text-center">1</td>
+                    <td class="border px-4 py-2">Kenanga 1</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">10</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center">2</td>
+                    <td class="border px-4 py-2">Kenanga 2</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">10</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center">3</td>
+                    <td class="border px-4 py-2">Kenanga 3</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">10</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center">4</td>
+                    <td class="border px-4 py-2">Melati</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">5</td>
+                    <td class="border px-4 py-2 text-center">10</td>
+                </tr>
+                <tr class="bg-gray-200 font-bold">
+                    <td class="border px-4 py-2 text-center" colspan="2">Jumlah</td>
+                    <td class="border px-4 py-2 text-center">20</td>
+                    <td class="border px-4 py-2 text-center">20</td>
+                    <td class="border px-4 py-2 text-center">40</td>
                 </tr>
             </tbody>
         </table>

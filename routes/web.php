@@ -38,10 +38,10 @@ Route::get('/data-pjb', function () {
 Route::prefix('data-indikator')->group(function () {
     Route::get('/', function () {
         return view('DataIndikator');
-    }); 
+    });
     Route::get('/sub-data-indikator', function () {
         return view('subDataIndikator');
-    }); 
+    });
 });
 
 Route::get('/data-program', function () {
@@ -60,6 +60,13 @@ Route::get("/test", function () {
 /**
  * Ini adalah Routing untuk testing view
  */
+
+// Kesehatan Masyarakat
+
+// Kesehatan Masyarakat -> Sub Bagian Kesehatan Keluarga Dan Gizi
+Route::get("/test/kesehatan-masyarakat/sub-bag-kesehatan-keluarga-dan-gizi/si-gizi", function () {
+    return view("kesehatanMasyarakat.subBagKesehatanKeluargaDanGizi.siGizi");
+});
 
 // P2P
 
@@ -93,5 +100,8 @@ Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/status-td-wus-tidak-ha
 });
 Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/status-wus-hamil-plus-tidak-hamil-diimunisasi-td", function () {
     return view("p2p.subBagImunisasi.laporanManual.statusWUSHamilPlusTidakHamilDiimunisasiTDView");
+});
+Route::get("/test/p2p/sub-bagian-imunisasi/laporan-manual/spm", function () {
+    return view("p2p.subBagImunisasi.laporanManual.spm");
 });
 
