@@ -55,17 +55,13 @@
 
 {{-- Rewrite --}}
 
-<nav class="border col-start-1 col-end-3 flex justify-between items-center px-6">
-  <div class="flex items-center gap-3">
+<nav class="border-b border-slate-300 col-start-1 col-end-3 flex justify-between items-center px-6">
+  <div class="flex items-center gap-5">
     {{-- Menu Sidebar --}}
-    <img src="{{ asset('icons/MenuIcon.svg') }}" class="w-6 border cursor-pointer" alt="Sidebar Menu">
+    @include("icons.MenuIcon")
     {{-- Logo Perusahaan --}}
-    <div id="logo-image" class="border flex items-center gap-3">
-      <img class="w-14" src="{{ asset('images/indramayu.png') }}" alt="Logo Profil">
-      <div id="logo-title" class="flex flex-col leading-none">
-        <h1 class="text-[10px] tracking-widest">DINAS KESEHATAN</h1>
-        <h1 class="font-bold text-2xl">INDRAMAYU</h1>
-      </div>
+    <div id="logo-image" class="flex items-center gap-3">
+      <img class="w-56" src="{{ asset('images/indramayu_revisited.png') }}" alt="Logo Profil">
     </div>
   </div>
   {{-- <ul id="menu" class="border"></ul> --}}

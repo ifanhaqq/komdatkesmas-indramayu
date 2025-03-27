@@ -12,7 +12,7 @@
 
 <body class="font-jakarta">
     {{-- Set Grid untuk Responsive --}}
-    <section class="grid grid-cols-[325px_1fr] grid-rows-[70px_1fr] border h-screen">
+    <section class="grid grid-cols-[350px_1fr] grid-rows-[80px_1fr] h-screen">
         {{-- Header Slot --}}
         <x-header></x-header>
         {{-- Sidebar Slot --}}

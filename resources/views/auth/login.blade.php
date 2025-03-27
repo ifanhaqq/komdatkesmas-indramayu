@@ -24,6 +24,7 @@
         </div>
       </div>
       <button id="button-login" type="submit" class="w-full py-4 rounded mt-2 cursor-pointer bg-green-700 text-white">Continue</button>
+      <p class="text-center">Belum punya akun? <a href="/register" class="text-green-700 font-semibold">Daftar disini</a></p>
     </form>
   </div>
   {{-- Script Sementara --}}
