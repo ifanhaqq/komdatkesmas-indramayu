@@ -186,6 +186,41 @@
                         <p class="border leading-tight ps-3">Sub. Bagian Kesehatan Keluarga dan Gizi</p>
                         <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
                     </button>
+                    <ul class="bg-slate-400 border">
+                        {{-- Aplikasi Kemenkes --}}
+                        <li class="border my-2 bg-slate-500">
+                            <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
+                                <p class="border ps-6">Aplikasi Kemenkes</p>
+                                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                            </button>
+                            <ul class="bg-red-500">
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-9">
+                                        <a class="bg-white" href="#/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Komdat</a>
+                                    </div>
+                                </li>  
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-9">
+                                        <a class="bg-white" href="#/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Si-Gizi</a>
+                                    </div>
+                                </li>  
+                            </ul>
+                        </li>
+                        {{-- Laporan Manual --}}
+                        <li class="border my-2 bg-slate-500">
+                            <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
+                                <p class="border ps-6">Laporan Manual</p>
+                                <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
+                            </button>
+                            <ul class="bg-red-500">
+                                <li class="border py-2 my-2 bg-red-700">
+                                    <div class="border ps-9">
+                                        <a class="bg-white" href="#/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Hasil Imunisasi Baduta</a>
+                                    </div>
+                                </li>    
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 {{-- Sub Bagian Kesehatan Lingkungan --}}
                 <li class="border flex-col justify-between my-2">
@@ -224,14 +259,14 @@
                         {{-- Aplikasi Kemenkes --}}
                         <li class="border my-2 bg-slate-500">
                             <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
-                                <p class="border ps-3">Aplikasi Kemenkes</p>
+                                <p class="border ps-6">Aplikasi Kemenkes</p>
                                 <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
                             </button>
                             <ul class="bg-red-500">
-                                <li class="border ps-6 my-2 bg-red-700">
+                                <li class="border ps-9 my-2 bg-red-700">
                                     <a class="border" href="">Test 1</a>
                                 </li>
-                                <li class="border ps-6 my-2 bg-red-700">
+                                <li class="border ps-9 my-2 bg-red-700">
                                     <a class="border" href="">Test 2</a>
                                 </li>
                             </ul>
@@ -239,52 +274,52 @@
                         {{-- Laporan Manual --}}
                         <li class="border my-2 bg-slate-500">
                             <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
-                                <p class="border ps-3">Laporan Manual</p>
+                                <p class="border ps-6">Laporan Manual</p>
                                 <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
                             </button>
                             <ul class="bg-red-500">
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Hasil Imunisasi Baduta</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-bayi">Hasil Imunisasi Bayi</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-ibu-hamil-diimunisasi">Jumlah dan Persentase Ibu Hamil Diimunisasi</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-wus-tidak-hamil-diimunisasi">Jumlah dan Persentase WUS Tidak Hamil Diimunisasi</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-total-dan-persentase-wus-hamil-plus-tidak-hamil-diimunisasi-td">Jumlah Total dan Persentase WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/status-td2-plus-bumil">Status TD 2+ Bumil</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/status-td-ibu-hamil">Status TD Ibu Hamil</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/status-td-wus-tidak-hamil">Status TD WUS Tidak Hamil</a>
                                     </div>
                                 </li>
                                 <li class="border py-2 my-2 bg-red-700">
-                                    <div class="border ps-6">
+                                    <div class="border ps-9">
                                         <a class="bg-white" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/status-wus-hamil-plus-tidak-hamil-diimunisasi-td">Status WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
                                     </div>
                                 </li>     
@@ -309,14 +344,14 @@
                         {{-- Aplikasi Kemenkes --}}
                         <li class="border my-2 bg-slate-500">
                             <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
-                                <p class="border ps-3">Aplikasi Kemenkes</p>
+                                <p class="border ps-6">Aplikasi Kemenkes</p>
                                 <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
                             </button>
                         </li>
                         {{-- Laporan Manual --}}
                         <li class="border my-2 bg-slate-500">
                             <button type="button" class="border py-2 flex justify-between w-full bg-purple-600 cursor-pointer">
-                                <p class="border ps-3">Laporan Manual</p>
+                                <p class="border ps-6">Laporan Manual</p>
                                 <img class="w-6 border" src="{{ asset('icons/plusIcon.svg') }}" alt="Plus Icon">
                             </button>
                         </li>
