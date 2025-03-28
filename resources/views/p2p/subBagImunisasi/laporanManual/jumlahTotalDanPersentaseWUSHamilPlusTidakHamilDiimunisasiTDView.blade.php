@@ -72,13 +72,14 @@
                     </button>
                 </div>
             </div>
-            <div id="popupForm" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center hidden">
-                <div class="bg-white p-6 rounded-lg w-1/2 shadow-lg">
+            <div id="popupForm" class="fixed inset-0 justify-center items-center hidden">
+                <div class="absolute bg-black opacity-50 inset-0"></div>
+                <div class="absolute bg-white p-6 rounded-lg w-1/2 shadow-lg top-20 bottom-20 overflow-y-auto">
                     <h1 class="text-2xl font-bold mb-4 text-center">Jumlah Total Dan Presentase WUS (Hamil + Tidak Hamil) Diimunisasi TD</h1>
                     <form action="#" method="POST">
                         <div class="mb-4">
                             <label for="kecamatan" class="block text-gray-700">Kecamatan</label>
-                            <select id="kecamatan" name="kecamatan" class="w-full border p-3 rounded-lg">
+                            <select id="kecamatan" name="kecamatan" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Kecamatan --</option>
                                 <option>Karangampel</option>
                             </select>
@@ -86,7 +87,7 @@
 
                         <div class="mb-4">
                             <label for="desa" class="block text-gray-700">Desa</label>
-                            <select id="desa" name="desa" class="w-full border p-3 rounded-lg">
+                            <select id="desa" name="desa" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Desa --</option>
                                 <option>Karangampel</option>
                             </select>
@@ -94,7 +95,7 @@
 
                         <div class="mb-4">
                             <label for="puskesmas" class="block text-gray-700">Puskesmas</label>
-                            <select id="puskesmas" name="puskesmas" class="w-full border p-3 rounded-lg">
+                            <select id="puskesmas" name="puskesmas" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Puskesmas --</option>
                                 <option>Karangampel</option>
                             </select>
@@ -103,14 +104,14 @@
                         <div class="mb-4 flex space-x-4">
                             <div class="w-1/2">
                                 <label for="bulan" class="block text-gray-700">Bulan</label>
-                                <select id="bulan" name="bulan" class="w-full border p-3 rounded-lg">
+                                <select id="bulan" name="bulan" class="w-full mt-3 border p-3 rounded-lg">
                                     <option disabled selected>-- Silahkan Pilih Bulan --</option>
                                     <option>Januari</option>
                                 </select>
                             </div>
                             <div class="w-1/2">
                                 <label for="tahun" class="block text-gray-700">Tahun</label>
-                                <select id="tahun" name="tahun" class="w-full border p-3 rounded-lg">
+                                <select id="tahun" name="tahun" class="w-full mt-3 border p-3 rounded-lg">
                                     <option disabled selected>-- Silahkan Pilih Tahun --</option>
                                     <option>2025</option>
                                 </select>
@@ -119,7 +120,7 @@
 
                         <div class="mb-4">
                             <label for="tetanusDifentri" class="block text-gray-700">Tetanus Difentri</label>
-                            <select id="tetanusDifentri" name="tetanusDifentri" class="w-full border p-3 rounded-lg">
+                            <select id="tetanusDifentri" name="tetanusDifentri" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Tetanus Difentri --</option>
                                 <option>Td1</option>
                             </select>
@@ -127,16 +128,16 @@
 
                         <div class="mb-4">
                             <label for="sasaranBumil" class="block text-gray-700">Sasaran Tidak Hamil Bumil</label>
-                            <input type="number" id="sasaranBumil" name="sasaranBumil" class="w-full border p-3 rounded-lg" required>
+                            <input type="number" id="sasaranBumil" name="sasaranBumil" class="w-full mt-3 border p-3 rounded-lg" required>
                         </div>
 
                         <div class="mb-4">
                             <label for="jumlah" class="block text-gray-700">Jumlah</label>
-                            <input type="number" id="jumlah" name="jumlah" class="w-full border p-3 rounded-lg" required>
+                            <input type="number" id="jumlah" name="jumlah" class="w-full mt-3 border p-3 rounded-lg" required>
                         </div>
 
                         <!-- Buttons -->
-                        <div class="flex justify-end space-x-4">
+                        <div class="flex justify-end pt-5 space-x-4">
                             <button type="button" onclick="closeForm()" class="bg-gray-400 text-white p-3 rounded-lg hover:bg-gray-500">Cancel</button>
                             <button type="submit" class="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">Save</button>
                         </div>
@@ -285,6 +286,7 @@
     <script>
         function openForm() {
             document.getElementById('popupForm').classList.remove('hidden');
+            document.getElementById('popupForm').classList.add("flex");
         }
 
         function closeForm() {
