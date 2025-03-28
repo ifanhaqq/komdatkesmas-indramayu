@@ -19,21 +19,27 @@
             class="w-12 h-12 rounded-full flex flex-col items-center justify-center overflow-hidden">
             <img class="scale-140" src="{{ asset('images/profile-placeholder.jpg') }}" alt="Profile Picture">
         </div>
-        <button class="cursor-pointer relative" type="button">
+        <button id="profile-button" class="cursor-pointer relative" type="button">
             @include('icons.DropdownIcon')
-            <div id="dropdown-profile-box" class="absolute bg-green-700 right-0 top-10 rounded shadow-xl w-48 border border-green-800">
-                <ul class="px-3 py-1 text-white">
-                    <li class="py-3 flex gap-3 items-center justify-start">
-                        @include('icons.ProfileIcon')
-                        <span>Profil</span>
+            <div id="dropdown-profile-box" class="absolute bg-green-700 -right-2 top-11 rounded shadow-xl w-52 border border-green-800 hidden">
+                <ul class="text-white">
+                    <li class="px-3 py-3 hover:bg-green-800 transition">
+                        <a class="flex items-center justify-start gap-3" href="">
+                            @include('icons.ProfileIcon')
+                            <span>Profil</span>
+                        </a>
                     </li>
-                    <li class="py-3 flex gap-3 items-center justify-start">
-                        @include('icons.SettingIcon')
-                        <span>Pengaturan</span>
+                    <li class="px-3 py-3 hover:bg-green-800 transition">
+                        <a class="flex items-center justify-start gap-3" href="">
+                            @include('icons.SettingIcon')
+                            <span>Pengaturan</span>
+                        </a>
                     </li>
-                    <li class="py-3 flex gap-3 items-center justify-start">
-                        @include('icons.LogoutIcon')
-                        <span>Log out</span>
+                    <li class="px-3 py-3 hover:bg-green-800 transition">
+                        <a class="flex items-center justify-start gap-3" href="">
+                            @include('icons.LogoutIcon')
+                            <span>Log out</span>
+                        </a>
                     </li>
                 </ul>
             </div>
