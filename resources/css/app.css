@@ -14,9 +14,13 @@
     --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
+
     --font-jakarta: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji";
+
+    --color-green-650: #05805a;
 }
+
 .datepicker-header .datepicker-header {
     display: none !important;
 }
@@ -24,3 +28,6 @@
 /* Custom CSS */
 
 /* Global */
+.scale-140 {
+    scale: 1.4;
+}

@@ -61,23 +61,21 @@
     @include("icons.MenuIcon")
     {{-- Logo Perusahaan --}}
     <div id="logo-image" class="flex items-center gap-3">
-      <img class="w-56" src="{{ asset('images/indramayu_revisited.png') }}" alt="Logo Profil">
+      <img class="w-56" src="{{ asset('images/indramayu-revisited.png') }}" alt="Logo Profil">
     </div>
   </div>
   {{-- <ul id="menu" class="border"></ul> --}}
   {{-- Profile Box --}}
-  <div id="profile-box" class="border flex items-center gap-3">
-    <div id="profile-name" class="border">
-      <p class="border text-sm">Profile Name</p>
-      <p class="border text-sm font-semibold">Job </p>
+  <div id="profile-box" class="flex items-center gap-3">
+    <div id="profile-name">
+      <p class="text-sm text-end">John Doe</p>
+      <p class="text-sm font-semibold text-green-700 text-end">Phaco Surgeon</p>
     </div>
-    <div>
-      <div id="profile-image" class="w-12 h-12 border rounded-full">
-        <img src="" alt="">
-      </div>
+    <div id="profile-image" class="w-12 h-12 rounded-full flex flex-col items-center justify-center overflow-hidden">
+      <img class="scale-140" src="{{ asset('images/profile-placeholder.jpg') }}" alt="Profile Picture">
     </div>
-    <button class="border cursor-pointer" type="button">
-      <img class="w-5 h-5" src="{{ asset('icons/DropdownIcon.svg') }}" alt="">
+    <button class="cursor-pointer" type="button">
+      @include("icons.DropdownIcon")
     </button>
   </div>
 </nav>
