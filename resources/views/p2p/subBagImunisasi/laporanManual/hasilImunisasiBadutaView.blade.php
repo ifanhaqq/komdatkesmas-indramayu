@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="px-6 py-6 h-full flex flex-col gap-5 overflow-y-scroll">
+    <div class="px-6 py-6 h-full flex flex-col gap-5 hover:overflow-y-auto">
         <h1 class="url-route">Program Pencegahan dan Pengendalian Penyakit / Sub. Bagian Imunisasi / Laporan Manual /
             Sasaran Baduta</h1>
         <div class="border border-gray-100"></div>
@@ -84,7 +84,7 @@
         </div>
         <div id="popupForm" class="fixed inset-0 justify-center items-center hidden">
             <div class="absolute bg-black opacity-50 inset-0"></div>
-            <div class="absolute bg-white p-6 rounded-lg w-1/2 shadow-lg ">
+            <div class="absolute bg-white p-6 rounded-lg w-1/2 shadow-lg top-20 bottom-20 overflow-y-auto">
                 <h2 class="text-2xl font-bold mb-4 text-center">Sasaran Baduta</h2>
                 <form action="#" method="POST">
                     <div class="mb-4">

@@ -160,8 +160,8 @@
 --}}
 
 {{-- Rewrite --}}
-<aside class="border-r border-slate-300 py-6 h-full overflow-y-hidden hover:overflow-y-scroll">
-    <ul class="px-2 flex flex-col gap-3">
+<aside class="border-r border-slate-300 h-full overflow-y-hidden hover:overflow-y-s">
+    <ul class="px-2 py-6 flex flex-col gap-3 overflow-y-hidden hover:overflow-y-auto h-full">
         {{-- Dashboard --}}
         <li id="dashboard-menu" class="flex items-center justify-between px-3 group">
             <a class="flex gap-3 w-full py-4 font-bold items-center bg-green-700 transition px-3 rounded group-hover:bg-green-800"
