@@ -66,10 +66,80 @@
                         <img src="{{ asset('images/search.png') }}" alt="Search Icon" class="mr-2 w-5 h-5">
                         Cari Data
                     </button>
-                    <button class="bg-green-600 text-white p-3 rounded-lg hover:bg-green-700 transition duration-200 flex items-center cursor-pointer">
+                    <button onclick="openForm()" class="bg-green-600 text-white p-3 rounded-lg hover:bg-green-700 transition duration-200 flex items-center cursor-pointer">
                         <img src="{{ asset('images/plus.png') }}" alt="Add Icon" class="mr-2 w-5 h-5">
                         Tambah Data
                     </button>
+                </div>
+                <div id="popupForm" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center hidden">
+                    <div class="bg-white p-6 rounded-lg w-1/2 shadow-lg">
+                        <h1 class="text-2xl font-bold mb-4 text-center">Status TD WUS Tidak Hamil</h1>
+                        <form action="#" method="POST">
+                            <div class="mb-4">
+                                <label for="kecamatan" class="block text-gray-700">Kecamatan</label>
+                                <select id="kecamatan" name="kecamatan" class="w-full border p-3 rounded-lg">
+                                    <option disabled selected>-- Silahkan Pilih Kecamatan --</option>
+                                    <option>Karangampel</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="desa" class="block text-gray-700">Desa</label>
+                                <select id="desa" name="desa" class="w-full border p-3 rounded-lg">
+                                    <option disabled selected>-- Silahkan Pilih Desa --</option>
+                                    <option>Karangampel</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="puskesmas" class="block text-gray-700">Puskesmas</label>
+                                <select id="puskesmas" name="puskesmas" class="w-full border p-3 rounded-lg">
+                                    <option disabled selected>-- Silahkan Pilih Puskesmas --</option>
+                                    <option>Karangampel</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4 flex space-x-4">
+                                <div class="w-1/2">
+                                    <label for="bulan" class="block text-gray-700">Bulan</label>
+                                    <select id="bulan" name="bulan" class="w-full border p-3 rounded-lg">
+                                        <option disabled selected>-- Silahkan Pilih Bulan --</option>
+                                        <option>Januari</option>
+                                    </select>
+                                </div>
+                                <div class="w-1/2">
+                                    <label for="tahun" class="block text-gray-700">Tahun</label>
+                                    <select id="tahun" name="tahun" class="w-full border p-3 rounded-lg">
+                                        <option disabled selected>-- Silahkan Pilih Tahun --</option>
+                                        <option>2025</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="tetanusDifentri" class="block text-gray-700">Tetanus Difentri</label>
+                                <select id="tetanusDifentri" name="tetanusDifentri" class="w-full border p-3 rounded-lg">
+                                    <option disabled selected>-- Silahkan Pilih Tetanus Difentri --</option>
+                                    <option>Td1</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="sasaranBumil" class="block text-gray-700">Sasaran Tidak Hamil Bumil</label>
+                                <input type="number" id="sasaranBumil" name="sasaranBumil" class="w-full border p-3 rounded-lg" required>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="jumlah" class="block text-gray-700">Jumlah</label>
+                                <input type="number" id="jumlah" name="jumlah" class="w-full border p-3 rounded-lg" required>
+                            </div>
+                            
+                            <div class="flex justify-end space-x-4">
+                                <button type="button" onclick="closeForm()" class="bg-gray-400 text-white p-3 rounded-lg hover:bg-gray-500">Cancel</button>
+                                <button type="submit" class="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">Save</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,7 +159,7 @@
                 </tr>
                 <tr>
                     <th class="border px-4 py-2">Jumlah</th>
-                    <th class="border">Presentase</th>
+                    <th class="border">Persentase</th>
                 </tr>
             </thead>
             <tbody>
@@ -211,4 +281,13 @@
             </tbody>
         </table>
     </div>
+    <script>
+        function openForm() {
+            document.getElementById('popupForm').classList.remove('hidden');
+        }
+
+        function closeForm() {
+            document.getElementById('popupForm').classList.add('hidden');
+        }
+    </script>
 </x-layout>
