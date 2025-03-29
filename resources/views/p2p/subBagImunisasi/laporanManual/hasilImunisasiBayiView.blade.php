@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="px-6 py-6 h-full flex flex-col gap-5 overflow-y-scroll">
+    <div class="px-6 py-6 h-full flex flex-col gap-5 hover:overflow-y-auto">
         <h1 class="url-route ">Program Pencegahan dan Pengendalian Penyakit / Sub. Bagian Imunisasi / Laporan Manual / Hasil Imunisasi Bayi</h1>
         <div class="border border-gray-100"></div>
         <h1 class="text-2xl font-bold text-center mb-5 mt-5 text-gray-700">Hasil Imunisasi Bayi</h1>
@@ -72,13 +72,14 @@
                     </button>
                 </div>
             </div>
-            <div id="popupForm" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center hidden">
-                <div class="bg-white p-6 rounded-lg w-1/2 shadow-lg">
+            <div id="popupForm" class="fixed inset-0 justify-center items-center hidden">
+                <div class="absolute bg-black opacity-50 inset-0"></div>
+                <div class="absolute bg-white p-6 rounded-lg w-1/2 shadow-lg top-20 bottom-20 overflow-y-auto">
                     <h2 class="text-2xl font-bold mb-4 text-center">Hasil Imunisasi Bayi</h2>
                     <form action="#" method="POST">
                         <div class="mb-4">
                             <label for="kecamatan" class="block text-gray-700">Kecamatan</label>
-                            <select id="kecamatan" name="kecamatan" class="w-full border p-3 rounded-lg">
+                            <select id="kecamatan" name="kecamatan" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Kecamatan --</option>
                                 <option>Karangampel</option>
                             </select>
@@ -86,7 +87,7 @@
 
                         <div class="mb-4">
                             <label for="puskesmas" class="block text-gray-700">Puskesmas</label>
-                            <select id="puskesmas" name="puskesmas" class="w-full border p-3 rounded-lg">
+                            <select id="puskesmas" name="puskesmas" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Puskesmas --</option>
                                 <option>Karangampel</option>
                             </select>
@@ -94,7 +95,7 @@
 
                         <div class="mb-4">
                             <label for="desa" class="block text-gray-700">Desa</label>
-                            <select id="desa" name="desa" class="w-full border p-3 rounded-lg">
+                            <select id="desa" name="desa" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Desa --</option>
                                 <option>Karangampel</option>
                             </select>
@@ -103,7 +104,7 @@
                         <div class="mb-4 flex space-x-4">
                             <div class="w-1/2">
                                 <label for="bulan" class="block text-gray-700">Bulan</label>
-                                <select id="bulan" name="bulan" class="w-full border p-3 rounded-lg">
+                                <select id="bulan" name="bulan" class="w-full mt-3 border p-3 rounded-lg">
                                     <option disabled selected>-- Silahkan Pilih Bulan --</option>
                                     <option>Januari</option>
                                     <option>Februari</option>
@@ -111,7 +112,7 @@
                             </div>
                             <div class="w-1/2">
                                 <label for="tahun" class="block text-gray-700">Tahun</label>
-                                <select id="tahun" name="tahun" class="w-full border p-3 rounded-lg">
+                                <select id="tahun" name="tahun" class="w-full mt-3 border p-3 rounded-lg">
                                     <option disabled selected>-- Silahkan Pilih Tahun --</option>
                                     <option>2025</option>
                                 </select>
@@ -120,7 +121,7 @@
 
                         <div class="mb-4">
                             <label for="vaksin" class="block text-gray-700">Vaksin</label>
-                            <select id="vaksin" name="vaksin" class="w-full border p-3 rounded-lg">
+                            <select id="vaksin" name="vaksin" class="w-full mt-3 border p-3 rounded-lg">
                                 <option disabled selected>-- Silahkan Pilih Vaksin --</option>
                                 <option>BCG</option>
                             </select>
@@ -130,13 +131,13 @@
                             <div class="w-1/2">
                                 <div class="mb-4">
                                     <label for="lakiLaki" class="block text-gray-700">Bayi Baru Lahir Laki-Laki</label>
-                                    <input type="number" id="lakiLaki" name="lakiLaki" class="w-full border p-3 rounded-lg" value="5" required>
+                                    <input type="number" id="lakiLaki" name="lakiLaki" class="w-full mt-3 border p-3 rounded-lg" value="0" required>
                                 </div>
                             </div>
                             <div class="w-1/2">
                                 <div class="mb-4">
                                     <label for="perempuan" class="block text-gray-700">Bayi Baru Lahir Perempuan</label>
-                                    <input type="number" id="perempuan" name="perempuan" class="w-full border p-3 rounded-lg" value="5" required>
+                                    <input type="number" id="perempuan" name="perempuan" class="w-full mt-3 border p-3 rounded-lg" value="0" required>
                                 </div>
                             </div>
                         </div>
@@ -145,13 +146,13 @@
                             <div class="w-1/2">
                                 <div class="mb-4">
                                     <label for="lakiLaki" class="block text-gray-700">Surviving Infant Laki-Laki</label>
-                                    <input type="number" id="lakiLaki" name="lakiLaki" class="w-full border p-3 rounded-lg" value="5" required>
+                                    <input type="number" id="lakiLaki" name="lakiLaki" class="w-full mt-3 border p-3 rounded-lg" value="0" required>
                                 </div>
                             </div>
                             <div class="w-1/2">
                                 <div class="mb-4">
                                     <label for="perempuan" class="block text-gray-700">Surviving Infant Perempuan</label>
-                                    <input type="number" id="perempuan" name="perempuan" class="w-full border p-3 rounded-lg" value="5" required>
+                                    <input type="number" id="perempuan" name="perempuan" class="w-full mt-3 border p-3 rounded-lg" value="0" required>
                                 </div>
                             </div>
                         </div>
@@ -160,17 +161,17 @@
                             <div class="w-1/2">
                                 <div class="mb-4">
                                     <label for="jumlahLakiLaki" class="block text-gray-700">Jumlah Imunisasi Bayi Laki-Laki</label>
-                                    <input type="number" id="jumlahLakiLaki" name="jumlahLakiLaki" class="w-full border p-3 rounded-lg" value="1" required>
+                                    <input type="number" id="jumlahLakiLaki" name="jumlahLakiLaki" class="w-full mt-3 border p-3 rounded-lg" value="0" required>
                                 </div>
                             </div>
                             <div class="w-1/2">
                                 <div class="mb-4">
                                     <label for="jumlahPerempuan" class="block text-gray-700">Jumlah Imunisasi Bayi Perempuan</label>
-                                    <input type="number" id="jumlahPerempuan" name="jumlahPerempuan" class="w-full border p-3 rounded-lg" value="2" required>
+                                    <input type="number" id="jumlahPerempuan" name="jumlahPerempuan" class="w-full mt-3 border p-3 rounded-lg" value="0" required>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex justify-end space-x-4">
+                        <div class="flex justify-end pt-5 space-x-4">
                             <button type="button" onclick="closeForm()" class="bg-gray-400 text-white p-3 rounded-lg hover:bg-gray-500">Cancel</button>
                             <button type="submit" class="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">Save</button>
                         </div>
@@ -286,6 +287,7 @@
     <script>
         function openForm() {
             document.getElementById('popupForm').classList.remove('hidden');
+            document.getElementById('popupForm').classList.add("flex");
         }
 
         function closeForm() {
