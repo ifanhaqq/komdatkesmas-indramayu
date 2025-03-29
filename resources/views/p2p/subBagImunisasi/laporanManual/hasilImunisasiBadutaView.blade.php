@@ -1,5 +1,5 @@
 <x-layout>
-    <div class="px-6 py-6 h-full flex flex-col gap-5 hover:overflow-y-auto">
+    <div class="px-6 py-6 h-full flex flex-col gap-5 overflow-y-hidden hover:overflow-y-auto">
         <h1 class="url-route">Program Pencegahan dan Pengendalian Penyakit / Sub. Bagian Imunisasi / Laporan Manual /
             Sasaran Baduta</h1>
         <div class="border border-gray-100"></div>
