@@ -205,11 +205,10 @@
                                 @include('icons.PlusIcon')
                             </button>
                             <ul class="">
-                                {{-- Edit soon --}}
                                 <li class="py-3 pe-3 bg-slate-200">
                                     <div class="ps-9 pe-3">
-                                        <a class="" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/">Jumlah
-                                            Dan Presentase Ibu Hamil Diimunisasi</a>
+                                        <a class="" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-ibu-hamil-diimunisasi">Jumlah
+                                            dan Persentase Ibu Hamil Diimunisasi</a>
                                     </div>
                                 </li>
                                 <li class="py-3 pe-3 bg-slate-200">
