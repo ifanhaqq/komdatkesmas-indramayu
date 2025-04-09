@@ -71,42 +71,42 @@
                     <ul class="">
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test1">Gawat Darurat Non PSC 119</a>
+                                <a class="" href="/test/yankes/primer/gawat-darurat-non-psc119">Gawat Darurat Non PSC 119</a>
                             </div>
                         </li>
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test2">Laporan Rawat Jalan (BP Umum)</a>
+                                <a class="" href="/test/yankes/primer/laporan-rawat-jalan-bp-umum">Laporan Rawat Jalan (BP Umum)</a>
                             </div>
                         </li>
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test2">Laporan Rawat Inap</a>
+                                <a class="" href="/test/yankes/primer/laporan-rawat-inap">Laporan Rawat Inap</a>
                             </div>
                         </li>
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test2">Laporan UGD/KLL</a>
+                                <a class="" href="/test/yankes/primer/laporan-ugd-kll">Laporan UGD/KLL</a>
                             </div>
                         </li>
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test2">[PERKESMAS] Pembina Keluarga Mandiri</a>
+                                <a class="" href="/test/yankes/primer/perkesmas-pembina-keluarga-mandiri">[PERKESMAS] Pembina Keluarga Mandiri</a>
                             </div>
                         </li>
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test2">[PERKESMAS] Laporan Bulanan</a>
+                                <a class="" href="/test/yankes/primer/perkesmas-laporan-bulanan">[PERKESMAS] Laporan Bulanan</a>
                             </div>
                         </li>
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test2">Laporan PIS-PK</a>
+                                <a class="" href="/test/yankes/primer/laporan-pis-pk">Laporan PIS-PK</a>
                             </div>
                         </li>
                         <li class="py-3 pe-3 bg-slate-200">
                             <div class="ps-6 pe-3">
-                                <a class="" href="#test2">Laporan Kesehatan Tradisional</a>
+                                <a class="" href="/test/yankes/primer/laporan-kesehatan-tradisional">Laporan Kesehatan Tradisional</a>
                             </div>
                         </li>
                     </ul>
@@ -205,11 +205,11 @@
                                 @include('icons.PlusIcon')
                             </button>
                             <ul class="">
+                                {{-- Edit soon --}}
                                 <li class="py-3 pe-3 bg-slate-200">
                                     <div class="ps-9 pe-3">
-                                        <a class=""
-                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Sasaran
-                                            Bumil</a>
+                                        <a class="" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/">Jumlah
+                                            Dan Presentase Ibu Hamil Diimunisasi</a>
                                     </div>
                                 </li>
                                 <li class="py-3 pe-3 bg-slate-200">
@@ -236,6 +236,34 @@
                                 <li class="py-3 pe-3 bg-slate-200">
                                     <div class="ps-9 pe-3">
                                         <a class=""
+                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-total-dan-persentase-wus-hamil-plus-tidak-hamil-diimunisasi-td">Jumlah
+                                            Total Dan Presentase WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
+                                    </div>
+                                </li>
+                                <li class="py-3 pe-3 bg-slate-200">
+                                    <div class="ps-9 pe-3">
+                                        <a class=""
+                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/status-wus-hamil-plus-tidak-hamil-diimunisasi-td">Status
+                                            WUS (Hamil + Tidak Hamil) Diimunisasi TD</a>
+                                    </div>
+                                </li>
+                                <li class="py-3 pe-3 bg-slate-200">
+                                    <div class="ps-9 pe-3">
+                                        <a class=""
+                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/status-td2-plus-bumil">Status
+                                            TD2+ Bumil</a>
+                                    </div>
+                                </li>
+                                {{-- <li class="py-3 pe-3 bg-slate-200">
+                                    <div class="ps-9 pe-3">
+                                        <a class=""
+                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Sasaran
+                                            Bumil</a>
+                                    </div>
+                                </li> --}}
+                                <li class="py-3 pe-3 bg-slate-200">
+                                    <div class="ps-9 pe-3">
+                                        <a class=""
                                             href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-bayi">Hasil
                                             Imunisasi Bayi</a>
                                     </div>
@@ -243,10 +271,10 @@
                                 <li class="py-3 pe-3 bg-slate-200">
                                     <div class="ps-9 pe-3">
                                         <a class=""
-                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Hasil
-                                            Imunisasi Baduta</a>
+                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Sasaran Baduta</a>
                                     </div>
                                 </li>
+
                                 {{-- <li class="border py-2 my-2 bg-red-700">
                                     <div class="border ps-6 pe-3">
                                         <a class="" href="/test/p2p/sub-bagian-imunisasi/laporan-manual/jumlah-dan-persentase-ibu-hamil-diimunisasi">Jumlah dan Persentase Ibu Hamil Diimunisasi</a>
@@ -399,7 +427,8 @@
                                                         <li class="py-3 pe-3 bg-slate-200">
                                                             <div class="ps-15 pe-3">
                                                                 <a class=""
-                                                                    href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data PJB</a>
+                                                                    href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data
+                                                                    PJB</a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -414,7 +443,8 @@
                                                         <li class="py-3 pe-3 bg-slate-200">
                                                             <div class="ps-15 pe-3">
                                                                 <a class=""
-                                                                    href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data Program</a>
+                                                                    href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data
+                                                                    Program</a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -422,25 +452,29 @@
                                                 <li class="py-3 pe-3 bg-slate-200">
                                                     <div class="ps-6 pe-3">
                                                         <a class=""
-                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data Indikator</a>
+                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data
+                                                            Indikator</a>
                                                     </div>
                                                 </li>
                                                 <li class="py-3 pe-3 bg-slate-200">
                                                     <div class="ps-6 pe-3">
                                                         <a class=""
-                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data Program</a>
+                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data
+                                                            Program</a>
                                                     </div>
                                                 </li>
                                                 <li class="py-3 pe-3 bg-slate-200">
                                                     <div class="ps-6 pe-3">
                                                         <a class=""
-                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data Kematian</a>
+                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data
+                                                            Kematian</a>
                                                     </div>
                                                 </li>
                                                 <li class="py-3 pe-3 bg-slate-200">
                                                     <div class="ps-6 pe-3">
                                                         <a class=""
-                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data Jampersal</a>
+                                                            href="/test/p2p/sub-bagian-imunisasi/laporan-manual/hasil-imunisasi-baduta">Data
+                                                            Jampersal</a>
                                                     </div>
                                                 </li>
                                             </ul>

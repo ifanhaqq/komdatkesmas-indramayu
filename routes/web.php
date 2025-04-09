@@ -68,9 +68,52 @@ Route::get("/test/kesehatan-masyarakat/sub-bag-kesehatan-keluarga-dan-gizi/si-gi
     return view("kesehatanMasyarakat.subBagKesehatanKeluargaDanGizi.siGizi");
 });
 
+// ====================================================================
+
+// Yankes
+
+// Yankes -> Primer
+Route::get('/test/yankes/primer/gawat-darurat-non-psc119', function () {
+    return view('yankes.primer.gawatDaruratNonPsc119View');
+});
+
+Route::get('/test/yankes/primer/laporan-rawat-jalan-bp-umum', function () {
+    return view('yankes.primer.laporanRawatJalanBpUmumView');
+});
+
+Route::get('/test/yankes/primer/laporan-rawat-inap', function () {
+    return view('yankes.primer.laporanRawatInapView');
+});
+
+Route::get('/test/yankes/primer/laporan-ugd-kll', function () {
+    return view('yankes.primer.laporanUgdKllView');
+});
+
+Route::get('/test/yankes/primer/perkesmas-pembina-keluarga-mandiri', function () {
+    return view('yankes.primer.perkesmasPembinaKeluargaMandiriView');
+});
+
+Route::get('/test/yankes/primer/perkesmas-laporan-bulanan', function () {
+    return view('yankes.primer.perkesmasLaporanBulananView');
+});
+
+Route::get('/test/yankes/primer/laporan-pis-pk', function () {
+    return view('yankes.primer.laporanPisPkView');
+});
+
+Route::get('/test/yankes/primer/laporan-kesehatan-tradisional', function () {
+    return view('yankes.primer.laporanKesehatanTradisionalView');
+});
+
+
+// ...
+
+// ====================================================================
+
 // P2P
 
 // P2P -> Sub Bagian Imunisasi -> Aplikasi Kemenkes
+
 // ...
 
 // P2P -> Sub Bagian Imunisasi -> Laporan Manual
